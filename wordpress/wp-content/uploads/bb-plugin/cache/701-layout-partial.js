@@ -1,0 +1,2 @@
+
+(function($){$(function(){$('.fl-map').on('click',function(){$(this).find('iframe').css('pointer-events','auto');});});})(jQuery);(function($){$(function(){new FLBuilderMenu({id:'5f8eff83aebb6',type:'horizontal',mobile:'expanded',mobileBelowRow:false,mobileFlyout:false,breakPoints:{large:1200,medium:992,small:768},mobileBreakpoint:'always',postId:'701',mobileStacked:true,});});})(jQuery);

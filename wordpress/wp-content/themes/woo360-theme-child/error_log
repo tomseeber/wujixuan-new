@@ -1,0 +1,8 @@
+[29-Dec-2019 13:03:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory() in /home/woo360madwirebui/public_html/wp-content/themes/woo360-theme-child/functions.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/woo360madwirebui/public_html/wp-content/themes/woo360-theme-child/functions.php on line 3
+[30-Dec-2019 17:54:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory() in /home/woo360madwirebui/public_html/wp-content/themes/woo360-theme-child/functions.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/woo360madwirebui/public_html/wp-content/themes/woo360-theme-child/functions.php on line 3

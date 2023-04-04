@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: toggle-search-form\n"
+"POT-Creation-Date: 2017-09-22 16:45+0530\n"
+"PO-Revision-Date: 2017-09-22 16:45+0530\n"
+"Last-Translator: \n"
+"Language-Team: WPBEAVERWORLD\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-toggle-search-form-admin.php:71
+msgid "License Key Settings"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:71
+msgid "TSF License Key"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:88
+msgid "License Settings"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:95
+msgid "License Key"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:113
+msgid "The license key is used for automatic upgrades and support."
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:135
+msgid "Activate"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:139
+msgid "Reactivate"
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:144
+msgid ""
+"Invalid or Expired Key : Please make sure you have entered the correct value "
+"and that your key is not expired."
+msgstr ""
+
+#: classes/class-toggle-search-form-admin.php:161
+msgid "Toggle Search Form Module (TSFM)"
+msgstr ""
+
+#: classes/class-toggle-search-form-loader.php:91
+msgid ""
+"Sorry, you can't use the Toggle Search Form module unless the Beaver Builder "
+"Plugin is active. The plugin has been deactivated."
+msgstr ""
+
+#: classes/class-tsf-updater.php:150
+msgid "An Unexpected HTTP Error occurred during the API request"
+msgstr ""
+
+#: classes/class-tsf-updater.php:155 classes/class-tsf-updater.php:378
+msgid "An unknown error occurred"
+msgstr ""
+
+#: classes/class-tsf-updater.php:194
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>. Your license key "
+"is expired. <a href=\"//www.wpbeaverworld.com/contact/\">Contact here</a> to "
+"renew the license key."
+msgstr ""
+
+#: classes/class-tsf-updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>. Activate your "
+"license key to receive access to automatic updates and support. Need a "
+"license key? <a href=\"//www.wpbeaverworld.com/toggle-search-form-module/"
+"\">Purchase one now</a>."
+msgstr ""
+
+#: classes/class-tsf-updater.php:212
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: classes/class-tsf-updater.php:244
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: classes/class-tsf-updater.php:244
+msgid "Error"
+msgstr ""
+
+#: classes/class-tsf-updater.php:272
+msgid "You entered an invaild license key."
+msgstr ""
+
+#: classes/class-tsf-updater.php:273
+msgid "This key is already activated. Try a new license key."
+msgstr ""
+
+#: classes/class-tsf-updater.php:274
+msgid "This key is expired. Renew or purchase a new license key."
+msgstr ""
+
+#: classes/class-tsf-updater.php:321
+msgid "You entered an invalid license key or did not renew it."
+msgstr ""
+
+#: classes/class-tsf-updater.php:372
+msgid "<p>An Unexpected HTTP Error occurred during the API request.</p>"
+msgstr ""
+
+#: module/toggle-search-form/includes/frontend.php:2
+msgid "Type and press Enter to search."
+msgstr ""
+
+#: module/toggle-search-form/includes/frontend.php:3
+msgid "Search"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:14
+#: module/toggle-search-form/toggle-search-form.php:15
+msgid "Toggle Search Form"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:16
+msgid "WP Beaver World"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:29
+msgid "General"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:36
+msgid "Search Icon"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:43
+msgid "Button Height"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:52
+msgid "Input Field Width"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:62
+msgid "Style"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:68
+msgid "Button Background Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:75
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:82
+msgid "Icon Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:89
+msgid "Icon Hover Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:96
+msgid "Text Field Background Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:103
+msgid "Text Field Focus Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:110
+msgid "Text Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:117
+msgid "Placeholder Color"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:123
+msgid "Font Size"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:127
+msgid "Icon Font Size"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:130
+#: module/toggle-search-form/toggle-search-form.php:153
+msgid "Default"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:131
+#: module/toggle-search-form/toggle-search-form.php:154
+msgid "Custom"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:141
+msgid "Custom Icon Font Size"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:150
+msgid "Text Font Size"
+msgstr ""
+
+#: module/toggle-search-form/toggle-search-form.php:165
+msgid "Custom Font Size"
+msgstr ""

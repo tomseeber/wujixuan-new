@@ -1,0 +1,4975 @@
+{
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4420.0 Mobile Safari/537.36 Chrome-Lighthouse",
+    "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+    "benchmarkIndex": 2009,
+    "credits": {}
+  },
+  "lighthouseVersion": "7.2.0",
+  "fetchTime": "2021-05-07T11:18:30.065Z",
+  "requestedUrl": "https://developer.wordpress.org/reference/",
+  "finalUrl": "https://developer.wordpress.org/reference/",
+  "runWarnings": [],
+  "audits": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint/).",
+      "score": 0.72,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3121.6212,
+      "numericUnit": "millisecond",
+      "displayValue": "3.1 s"
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "score": 0.75,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3121.6212,
+      "numericUnit": "millisecond",
+      "displayValue": "3.1 s"
+    },
+    "first-meaningful-paint": {
+      "id": "first-meaningful-paint",
+      "title": "First Meaningful Paint",
+      "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint/).",
+      "score": 0.65,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3397.9561000000003,
+      "numericUnit": "millisecond",
+      "displayValue": "3.4 s"
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
+      "score": 0.93,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3121.6212,
+      "numericUnit": "millisecond",
+      "displayValue": "3.1 s"
+    },
+    "estimated-input-latency": {
+      "id": "estimated-input-latency",
+      "title": "Estimated Input Latency",
+      "description": "Estimated Input Latency is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://web.dev/estimated-input-latency/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 12.8,
+      "numericUnit": "millisecond",
+      "displayValue": "10 ms"
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more](https://web.dev/lighthouse-total-blocking-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 12,
+      "numericUnit": "millisecond",
+      "displayValue": "10 ms"
+    },
+    "max-potential-fid": {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more](https://web.dev/lighthouse-max-potential-fid/).",
+      "score": 0.99,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 74,
+      "numericUnit": "millisecond",
+      "displayValue": "70 ms"
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more](https://web.dev/cls/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0.0005263671875,
+      "numericUnit": "unitless",
+      "displayValue": "0.001",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "finalLayoutShiftTraceEventFound": true
+          }
+        ]
+      }
+    },
+    "server-response-time": {
+      "id": "server-response-time",
+      "title": "Initial server response time was short",
+      "description": "Keep the server response time for the main document short because all other requests depend on it. [Learn more](https://web.dev/time-to-first-byte/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "numericValue": 115.164,
+      "numericUnit": "millisecond",
+      "displayValue": "Root document took 120 ms",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "responseTime",
+            "valueType": "timespanMs",
+            "label": "Time Spent"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "responseTime": 115.164
+          }
+        ],
+        "overallSavingsMs": 15.164000000000001
+      }
+    },
+    "first-cpu-idle": {
+      "id": "first-cpu-idle",
+      "title": "First CPU Idle",
+      "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input.  [Learn more](https://web.dev/first-cpu-idle/).",
+      "score": 0.9,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3571.6211999999996,
+      "numericUnit": "millisecond",
+      "displayValue": "3.6 s"
+    },
+    "interactive": {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "description": "Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive/).",
+      "score": 0.93,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3421.78865,
+      "numericUnit": "millisecond",
+      "displayValue": "3.4 s"
+    },
+    "user-timings": {
+      "id": "user-timings",
+      "title": "User Timing marks and measures",
+      "description": "Consider instrumenting your app with the User Timing API to measure your app's real-world performance during key user experiences. [Learn more](https://web.dev/user-timings/).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "critical-request-chains": {
+      "id": "critical-request-chains",
+      "title": "Avoid chaining critical requests",
+      "description": "The Critical Request Chains below show you what resources are loaded with a high priority. Consider reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load. [Learn more](https://web.dev/critical-request-chains/).",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "displayValue": "38 chains found",
+      "details": {
+        "type": "criticalrequestchain",
+        "chains": {
+          "52347D4D0E9D01C9644430BC71961484": {
+            "request": {
+              "url": "https://developer.wordpress.org/reference/",
+              "startTime": 1639979.622628,
+              "endTime": 1639979.73983,
+              "responseReceivedTime": 1639979.7387120002,
+              "transferSize": 7342
+            },
+            "children": {
+              "5744.761": {
+                "request": {
+                  "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic",
+                  "startTime": 1639979.787076,
+                  "endTime": 1639979.823184,
+                  "responseReceivedTime": 1639979.821271,
+                  "transferSize": 979
+                },
+                "children": {
+                  "5744.826": {
+                    "request": {
+                      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2",
+                      "startTime": 1639980.315998,
+                      "endTime": 1639980.324847,
+                      "responseReceivedTime": 1639980.3235260001,
+                      "transferSize": 9079
+                    }
+                  },
+                  "5744.833": {
+                    "request": {
+                      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+                      "startTime": 1639980.336384,
+                      "endTime": 1639980.391541,
+                      "responseReceivedTime": 1639980.382225,
+                      "transferSize": 9155
+                    }
+                  },
+                  "5744.840": {
+                    "request": {
+                      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2",
+                      "startTime": 1639980.362319,
+                      "endTime": 1639980.400778,
+                      "responseReceivedTime": 1639980.395986,
+                      "transferSize": 9204
+                    }
+                  },
+                  "5744.812": {
+                    "request": {
+                      "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2",
+                      "startTime": 1639980.377708,
+                      "endTime": 1639980.401209,
+                      "responseReceivedTime": 1639980.398172,
+                      "transferSize": 9751
+                    }
+                  }
+                }
+              },
+              "5744.762": {
+                "request": {
+                  "url": "https://s.w.org/style/wp4.css?95",
+                  "startTime": 1639979.790577,
+                  "endTime": 1639979.813413,
+                  "responseReceivedTime": 1639979.810574,
+                  "transferSize": 10508
+                }
+              },
+              "5744.763": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50821",
+                  "startTime": 1639979.790858,
+                  "endTime": 1639980.035417,
+                  "responseReceivedTime": 1639979.917897,
+                  "transferSize": 35175
+                },
+                "children": {
+                  "5744.859": {
+                  }
+                }
+              },
+              "5744.764": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/css/admin-bar.min.css?ver=5.8-alpha-50821",
+                  "startTime": 1639979.791153,
+                  "endTime": 1639980.046352,
+                  "responseReceivedTime": 1639980.037251,
+                  "transferSize": 3564
+                }
+              },
+              "5744.765": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/css/dist/block-library/style.min.css?ver=5.8-alpha-50821",
+                  "startTime": 1639979.791388,
+                  "endTime": 1639980.051214,
+                  "responseReceivedTime": 1639980.0494269999,
+                  "transferSize": 8950
+                }
+              },
+              "5744.766": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/handbook/stylesheets/callout-boxes.css?ver=20200121",
+                  "startTime": 1639979.79161,
+                  "endTime": 1639980.052489,
+                  "responseReceivedTime": 1639980.0504949999,
+                  "transferSize": 410
+                }
+              },
+              "5744.767": {
+                "request": {
+                  "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&display=fallback&ver=5.8-alpha-50821",
+                  "startTime": 1639979.791875,
+                  "endTime": 1639979.821113,
+                  "responseReceivedTime": 1639979.8202580002,
+                  "transferSize": 1015
+                }
+              },
+              "5744.768": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/style.css?ver=3",
+                  "startTime": 1639979.79247,
+                  "endTime": 1639980.052792,
+                  "responseReceivedTime": 1639980.05058,
+                  "transferSize": 521
+                }
+              },
+              "5744.769": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+                  "startTime": 1639979.792798,
+                  "endTime": 1639980.062438,
+                  "responseReceivedTime": 1639980.050728,
+                  "transferSize": 13577
+                }
+              },
+              "5744.770": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/awesomplete.css?ver=20160114",
+                  "startTime": 1639979.793642,
+                  "endTime": 1639980.060685,
+                  "responseReceivedTime": 1639980.050755,
+                  "transferSize": 670
+                }
+              },
+              "5744.771": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/autocomplete.css?ver=20171220",
+                  "startTime": 1639979.793906,
+                  "endTime": 1639980.061701,
+                  "responseReceivedTime": 1639980.051068,
+                  "transferSize": 397
+                }
+              },
+              "5744.772": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b",
+                  "startTime": 1639979.7944,
+                  "endTime": 1639980.062109,
+                  "responseReceivedTime": 1639980.051093,
+                  "transferSize": 1242
+                }
+              },
+              "5744.773": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b",
+                  "startTime": 1639979.794648,
+                  "endTime": 1639980.06299,
+                  "responseReceivedTime": 1639980.05112,
+                  "transferSize": 593
+                }
+              },
+              "5744.774": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+                  "startTime": 1639979.794909,
+                  "endTime": 1639980.195524,
+                  "responseReceivedTime": 1639980.16185,
+                  "transferSize": 30366
+                }
+              },
+              "5744.775": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+                  "startTime": 1639979.79516,
+                  "endTime": 1639980.200931,
+                  "responseReceivedTime": 1639980.179073,
+                  "transferSize": 4024
+                }
+              },
+              "5744.776": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/handbook/scripts/handbook.js?ver=20150930",
+                  "startTime": 1639979.795378,
+                  "endTime": 1639980.207054,
+                  "responseReceivedTime": 1639980.179126,
+                  "transferSize": 559
+                }
+              },
+              "5744.777": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/chapters.js?ver=20190603",
+                  "startTime": 1639979.795624,
+                  "endTime": 1639980.207372,
+                  "responseReceivedTime": 1639980.179202,
+                  "transferSize": 651
+                }
+              },
+              "5744.778": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b",
+                  "startTime": 1639979.795966,
+                  "endTime": 1639980.207798,
+                  "responseReceivedTime": 1639980.179277,
+                  "transferSize": 8820
+                }
+              },
+              "5744.779": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b",
+                  "startTime": 1639979.79617,
+                  "endTime": 1639980.208184,
+                  "responseReceivedTime": 1639980.1793509999,
+                  "transferSize": 2073
+                }
+              },
+              "5744.780": {
+                "request": {
+                  "url": "https://s.w.org/style/js/navigation.min.js?20190128",
+                  "startTime": 1639979.796404,
+                  "endTime": 1639979.816498,
+                  "responseReceivedTime": 1639979.816045,
+                  "transferSize": 630
+                }
+              },
+              "5744.781": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/hoverintent-js.min.js?ver=2.2.1",
+                  "startTime": 1639979.796603,
+                  "endTime": 1639980.208582,
+                  "responseReceivedTime": 1639980.179408,
+                  "transferSize": 694
+                }
+              },
+              "5744.782": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/admin-bar.min.js?ver=5.8-alpha-50821",
+                  "startTime": 1639979.796799,
+                  "endTime": 1639980.209152,
+                  "responseReceivedTime": 1639980.1794619998,
+                  "transferSize": 1286
+                }
+              },
+              "5744.783": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/navigation.js?ver=20181209",
+                  "startTime": 1639979.797006,
+                  "endTime": 1639980.212627,
+                  "responseReceivedTime": 1639980.179517,
+                  "transferSize": 772
+                }
+              },
+              "5744.784": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/skip-link-focus-fix.js?ver=20130115",
+                  "startTime": 1639979.797263,
+                  "endTime": 1639980.21313,
+                  "responseReceivedTime": 1639980.179572,
+                  "transferSize": 332
+                }
+              },
+              "5744.785": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/search.js?ver=20150430",
+                  "startTime": 1639979.79748,
+                  "endTime": 1639980.213532,
+                  "responseReceivedTime": 1639980.179627,
+                  "transferSize": 496
+                }
+              },
+              "5744.786": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/menu.js?ver=20180201",
+                  "startTime": 1639979.797713,
+                  "endTime": 1639980.213871,
+                  "responseReceivedTime": 1639980.179684,
+                  "transferSize": 499
+                }
+              },
+              "5744.787": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/awesomplete.min.js?ver=20160322",
+                  "startTime": 1639979.79793,
+                  "endTime": 1639980.214146,
+                  "responseReceivedTime": 1639980.179721,
+                  "transferSize": 1807
+                }
+              },
+              "5744.788": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/autocomplete.js?ver=20160524",
+                  "startTime": 1639979.798123,
+                  "endTime": 1639980.214422,
+                  "responseReceivedTime": 1639980.1797739998,
+                  "transferSize": 964
+                }
+              },
+              "5744.789": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/function-reference.js?ver=20180724",
+                  "startTime": 1639979.798323,
+                  "endTime": 1639980.214648,
+                  "responseReceivedTime": 1639980.179808,
+                  "transferSize": 1103
+                }
+              },
+              "5744.790": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/quicktags.min.js?ver=5.8-alpha-50821",
+                  "startTime": 1639979.798519,
+                  "endTime": 1639980.214981,
+                  "responseReceivedTime": 1639980.179863,
+                  "transferSize": 3365
+                }
+              },
+              "5744.791": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes.js?ver=20200110",
+                  "startTime": 1639979.798743,
+                  "endTime": 1639980.215259,
+                  "responseReceivedTime": 1639980.179917,
+                  "transferSize": 1205
+                }
+              },
+              "5744.792": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes-feedback.js?ver=20181023",
+                  "startTime": 1639979.799024,
+                  "endTime": 1639980.215779,
+                  "responseReceivedTime": 1639980.179973,
+                  "transferSize": 1638
+                }
+              },
+              "5744.793": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/tabs.js?ver=20160824",
+                  "startTime": 1639979.799311,
+                  "endTime": 1639980.216169,
+                  "responseReceivedTime": 1639980.180027,
+                  "transferSize": 1192
+                }
+              },
+              "5744.794": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes-preview.js?ver=20200111",
+                  "startTime": 1639979.799618,
+                  "endTime": 1639980.216499,
+                  "responseReceivedTime": 1639980.180088,
+                  "transferSize": 1106
+                }
+              },
+              "5744.795": {
+                "request": {
+                  "url": "https://developer.wordpress.org/wp-includes/js/wp-embed.min.js?ver=5.8-alpha-50821",
+                  "startTime": 1639979.799881,
+                  "endTime": 1639980.216812,
+                  "responseReceivedTime": 1639980.180171,
+                  "transferSize": 693
+                }
+              }
+            }
+          }
+        },
+        "longestChain": {
+          "duration": 778.5809999331832,
+          "length": 3,
+          "transferSize": 9751
+        }
+      }
+    },
+    "redirects": {
+      "id": "redirects",
+      "title": "Avoid multiple page redirects",
+      "description": "Redirects introduce additional delays before the page can be loaded. [Learn more](https://web.dev/redirects/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "mainthread-work-breakdown": {
+      "id": "mainthread-work-breakdown",
+      "title": "Minimizes main-thread work",
+      "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown/)",
+      "score": 0.93,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1783.9879999999998,
+      "numericUnit": "millisecond",
+      "displayValue": "1.8 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "groupLabel",
+            "itemType": "text",
+            "text": "Category"
+          },
+          {
+            "key": "duration",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Time Spent"
+          }
+        ],
+        "items": [
+          {
+            "group": "other",
+            "groupLabel": "Other",
+            "duration": 618.4079999999996
+          },
+          {
+            "group": "scriptEvaluation",
+            "groupLabel": "Script Evaluation",
+            "duration": 401.60000000000053
+          },
+          {
+            "group": "styleLayout",
+            "groupLabel": "Style & Layout",
+            "duration": 347.6200000000001
+          },
+          {
+            "group": "scriptParseCompile",
+            "groupLabel": "Script Parsing & Compilation",
+            "duration": 159.11999999999995
+          },
+          {
+            "group": "parseHTML",
+            "groupLabel": "Parse HTML & CSS",
+            "duration": 149.89999999999995
+          },
+          {
+            "group": "paintCompositeRender",
+            "groupLabel": "Rendering",
+            "duration": 61.93199999999998
+          },
+          {
+            "group": "garbageCollection",
+            "groupLabel": "Garbage Collection",
+            "duration": 45.40800000000001
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "id": "bootup-time",
+      "title": "JavaScript execution time",
+      "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/bootup-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 438.56399999999996,
+      "numericUnit": "millisecond",
+      "displayValue": "0.4 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "itemType": "ms",
+            "text": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "itemType": "ms",
+            "text": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "itemType": "ms",
+            "text": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "total": 888.6680000000001,
+            "scripting": 178.13599999999997,
+            "scriptParseCompile": 91.72400000000003
+          },
+          {
+            "url": "Unattributable",
+            "total": 477.5240000000006,
+            "scripting": 7.732,
+            "scriptParseCompile": 1.264
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+            "total": 79.80800000000002,
+            "scripting": 66.74000000000002,
+            "scriptParseCompile": 6.476
+          },
+          {
+            "url": "chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js",
+            "total": 66.052,
+            "scripting": 23.704,
+            "scriptParseCompile": 34.632000000000005
+          },
+          {
+            "url": "chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/js/contentscript.js",
+            "total": 52.27599999999997,
+            "scripting": 28.155999999999967,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 438.56399999999996
+        }
+      }
+    },
+    "uses-rel-preload": {
+      "id": "uses-rel-preload",
+      "title": "Preload key requests",
+      "description": "Consider using `<link rel=preload>` to prioritize fetching resources that are currently requested later in page load. [Learn more](https://web.dev/uses-rel-preload/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "uses-rel-preconnect": {
+      "id": "uses-rel-preconnect",
+      "title": "Preconnect to required origins",
+      "description": "Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins. [Learn more](https://web.dev/uses-rel-preconnect/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "font-display": {
+      "id": "font-display",
+      "title": "Ensure text remains visible during webfont load",
+      "description": "Leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading. [Learn more](https://web.dev/font-display/).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "warnings": [],
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "wastedMs",
+            "itemType": "ms",
+            "text": "Potential Savings"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2",
+            "wastedMs": 8.848999859765172
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+            "wastedMs": 55.15699996612966
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2",
+            "wastedMs": 38.4589999448508
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2",
+            "wastedMs": 23.501000134274364
+          }
+        ]
+      }
+    },
+    "diagnostics": {
+      "id": "diagnostics",
+      "title": "Diagnostics",
+      "description": "Collection of useful page vitals.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "numRequests": 47,
+            "numScripts": 24,
+            "numStylesheets": 13,
+            "numFonts": 5,
+            "numTasks": 867,
+            "numTasksOver10ms": 11,
+            "numTasksOver25ms": 3,
+            "numTasksOver50ms": 1,
+            "numTasksOver100ms": 0,
+            "numTasksOver500ms": 0,
+            "rtt": 0.0798,
+            "throughput": 6859203.661938506,
+            "maxRtt": 1.2953,
+            "maxServerLatency": 371.62120000000004,
+            "totalByteWeight": 234288,
+            "totalTaskTime": 445.99699999999933,
+            "mainDocumentTransferSize": 7342
+          }
+        ]
+      }
+    },
+    "network-requests": {
+      "id": "network-requests",
+      "title": "Network Requests",
+      "description": "Lists the network requests that were made during page load.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "protocol",
+            "itemType": "text",
+            "text": "Protocol"
+          },
+          {
+            "key": "startTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Start Time"
+          },
+          {
+            "key": "endTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "End Time"
+          },
+          {
+            "key": "transferSize",
+            "itemType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "text": "Transfer Size"
+          },
+          {
+            "key": "resourceSize",
+            "itemType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "text": "Resource Size"
+          },
+          {
+            "key": "statusCode",
+            "itemType": "text",
+            "text": "Status Code"
+          },
+          {
+            "key": "mimeType",
+            "itemType": "text",
+            "text": "MIME Type"
+          },
+          {
+            "key": "resourceType",
+            "itemType": "text",
+            "text": "Resource Type"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "protocol": "h2",
+            "startTime": 0,
+            "endTime": 117.20199999399483,
+            "finished": true,
+            "transferSize": 7342,
+            "resourceSize": 32807,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic",
+            "protocol": "h2",
+            "startTime": 164.4479997921735,
+            "endTime": 200.5559999961406,
+            "finished": true,
+            "transferSize": 979,
+            "resourceSize": 12682,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://s.w.org/style/wp4.css?95",
+            "protocol": "h2",
+            "startTime": 167.94899990782142,
+            "endTime": 190.7849998679012,
+            "finished": true,
+            "transferSize": 10508,
+            "resourceSize": 47957,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 168.22999995201826,
+            "endTime": 412.7889999654144,
+            "finished": true,
+            "transferSize": 35175,
+            "resourceSize": 59016,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/admin-bar.min.css?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 168.52499986998737,
+            "endTime": 423.723999876529,
+            "finished": true,
+            "transferSize": 3564,
+            "resourceSize": 19601,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dist/block-library/style.min.css?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 168.75999979674816,
+            "endTime": 428.5859998781234,
+            "finished": true,
+            "transferSize": 8950,
+            "resourceSize": 67124,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/handbook/stylesheets/callout-boxes.css?ver=20200121",
+            "protocol": "h2",
+            "startTime": 168.98199985735118,
+            "endTime": 429.8609998077154,
+            "finished": true,
+            "transferSize": 410,
+            "resourceSize": 1165,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&display=fallback&ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 169.24700001254678,
+            "endTime": 198.48499982617795,
+            "finished": true,
+            "transferSize": 1015,
+            "resourceSize": 13774,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/style.css?ver=3",
+            "protocol": "h2",
+            "startTime": 169.84199988655746,
+            "endTime": 430.16399978660047,
+            "finished": true,
+            "transferSize": 521,
+            "resourceSize": 1063,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+            "protocol": "h2",
+            "startTime": 170.1699998229742,
+            "endTime": 439.80999989435077,
+            "finished": true,
+            "transferSize": 13577,
+            "resourceSize": 80466,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/awesomplete.css?ver=20160114",
+            "protocol": "h2",
+            "startTime": 171.01399996317923,
+            "endTime": 438.0569998174906,
+            "finished": true,
+            "transferSize": 670,
+            "resourceSize": 1823,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/autocomplete.css?ver=20171220",
+            "protocol": "h2",
+            "startTime": 171.2779998779297,
+            "endTime": 439.0729998704046,
+            "finished": true,
+            "transferSize": 397,
+            "resourceSize": 1015,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b",
+            "protocol": "h2",
+            "startTime": 171.7719999141991,
+            "endTime": 439.48099995031953,
+            "finished": true,
+            "transferSize": 1242,
+            "resourceSize": 6549,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b",
+            "protocol": "h2",
+            "startTime": 172.01999993994832,
+            "endTime": 440.3619999065995,
+            "finished": true,
+            "transferSize": 593,
+            "resourceSize": 2877,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+            "protocol": "h2",
+            "startTime": 172.2809998318553,
+            "endTime": 572.8959999978542,
+            "finished": true,
+            "transferSize": 30366,
+            "resourceSize": 89521,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+            "protocol": "h2",
+            "startTime": 172.53199988044798,
+            "endTime": 578.302999958396,
+            "finished": true,
+            "transferSize": 4024,
+            "resourceSize": 11224,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/handbook/scripts/handbook.js?ver=20150930",
+            "protocol": "h2",
+            "startTime": 172.74999991059303,
+            "endTime": 584.4260000158101,
+            "finished": true,
+            "transferSize": 559,
+            "resourceSize": 1094,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/chapters.js?ver=20190603",
+            "protocol": "h2",
+            "startTime": 172.99599992111325,
+            "endTime": 584.743999876082,
+            "finished": true,
+            "transferSize": 651,
+            "resourceSize": 1761,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b",
+            "protocol": "h2",
+            "startTime": 173.3379999641329,
+            "endTime": 585.1699998602271,
+            "finished": true,
+            "transferSize": 8820,
+            "resourceSize": 23922,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b",
+            "protocol": "h2",
+            "startTime": 173.54199988767505,
+            "endTime": 585.5560000054538,
+            "finished": true,
+            "transferSize": 2073,
+            "resourceSize": 5314,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://s.w.org/style/js/navigation.min.js?20190128",
+            "protocol": "h2",
+            "startTime": 173.77599980682135,
+            "endTime": 193.86999984271824,
+            "finished": true,
+            "transferSize": 630,
+            "resourceSize": 1324,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/hoverintent-js.min.js?ver=2.2.1",
+            "protocol": "h2",
+            "startTime": 173.97499992512167,
+            "endTime": 585.9540000092238,
+            "finished": true,
+            "transferSize": 694,
+            "resourceSize": 1718,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/admin-bar.min.js?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 174.17099978774786,
+            "endTime": 586.5239999257028,
+            "finished": true,
+            "transferSize": 1286,
+            "resourceSize": 3556,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/navigation.js?ver=20181209",
+            "protocol": "h2",
+            "startTime": 174.37799996696413,
+            "endTime": 589.9989998433739,
+            "finished": true,
+            "transferSize": 772,
+            "resourceSize": 2157,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/skip-link-focus-fix.js?ver=20130115",
+            "protocol": "h2",
+            "startTime": 174.63499982841313,
+            "endTime": 590.5019999481738,
+            "finished": true,
+            "transferSize": 332,
+            "resourceSize": 733,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/search.js?ver=20150430",
+            "protocol": "h2",
+            "startTime": 174.85199985094368,
+            "endTime": 590.9039999824017,
+            "finished": true,
+            "transferSize": 496,
+            "resourceSize": 1223,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/menu.js?ver=20180201",
+            "protocol": "h2",
+            "startTime": 175.08499999530613,
+            "endTime": 591.2430000025779,
+            "finished": true,
+            "transferSize": 499,
+            "resourceSize": 1215,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/awesomplete.min.js?ver=20160322",
+            "protocol": "h2",
+            "startTime": 175.30199978500605,
+            "endTime": 591.5180000010878,
+            "finished": true,
+            "transferSize": 1807,
+            "resourceSize": 4724,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/autocomplete.js?ver=20160524",
+            "protocol": "h2",
+            "startTime": 175.4949998576194,
+            "endTime": 591.7940000072122,
+            "finished": true,
+            "transferSize": 964,
+            "resourceSize": 2588,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/function-reference.js?ver=20180724",
+            "protocol": "h2",
+            "startTime": 175.69499998353422,
+            "endTime": 592.0199998654425,
+            "finished": true,
+            "transferSize": 1103,
+            "resourceSize": 3586,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/quicktags.min.js?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 175.8909998461604,
+            "endTime": 592.3529998399317,
+            "finished": true,
+            "transferSize": 3365,
+            "resourceSize": 11133,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes.js?ver=20200110",
+            "protocol": "h2",
+            "startTime": 176.11499992199242,
+            "endTime": 592.6309998612851,
+            "finished": true,
+            "transferSize": 1205,
+            "resourceSize": 3142,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes-feedback.js?ver=20181023",
+            "protocol": "h2",
+            "startTime": 176.39599996618927,
+            "endTime": 593.1509998627007,
+            "finished": true,
+            "transferSize": 1638,
+            "resourceSize": 6243,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/tabs.js?ver=20160824",
+            "protocol": "h2",
+            "startTime": 176.68299982324243,
+            "endTime": 593.5409998055547,
+            "finished": true,
+            "transferSize": 1192,
+            "resourceSize": 3967,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/js/user-notes-preview.js?ver=20200111",
+            "protocol": "h2",
+            "startTime": 176.98999983258545,
+            "endTime": 593.8709999900311,
+            "finished": true,
+            "transferSize": 1106,
+            "resourceSize": 3258,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/wp-embed.min.js?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 177.25299997255206,
+            "endTime": 594.1839998122305,
+            "finished": true,
+            "transferSize": 693,
+            "resourceSize": 1426,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P24PF4B",
+            "protocol": "http/1.1",
+            "startTime": 211.38200000859797,
+            "endTime": 755.9340000152588,
+            "finished": true,
+            "transferSize": 0,
+            "resourceSize": 0,
+            "statusCode": 307,
+            "mimeType": ""
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/wp-emoji-release.min.js?ver=5.8-alpha-50821",
+            "protocol": "h2",
+            "startTime": 681.626999983564,
+            "endTime": 821.0339997895062,
+            "finished": true,
+            "transferSize": 4369,
+            "resourceSize": 14229,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://s.w.org/style/images/wporg-logo.svg?3",
+            "protocol": "h2",
+            "startTime": 692.9349999409169,
+            "endTime": 708.1139998044819,
+            "finished": true,
+            "transferSize": 2409,
+            "resourceSize": 5965,
+            "statusCode": 200,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2",
+            "protocol": "h2",
+            "startTime": 693.3699999935925,
+            "endTime": 702.2189998533577,
+            "finished": true,
+            "transferSize": 9079,
+            "resourceSize": 9016,
+            "statusCode": 200,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://s.w.org/wp-includes/images/admin-bar-sprite.png?d=20120831",
+            "protocol": "h2",
+            "startTime": 693.801999790594,
+            "endTime": 710.2029998786747,
+            "finished": true,
+            "transferSize": 2497,
+            "resourceSize": 2467,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://s.w.org/style/images/codeispoetry-2x.png?1",
+            "protocol": "h2",
+            "startTime": 712.972000008449,
+            "endTime": 762.083999812603,
+            "finished": true,
+            "transferSize": 5398,
+            "resourceSize": 5368,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+            "protocol": "h3-29",
+            "startTime": 713.755999924615,
+            "endTime": 768.9129998907447,
+            "finished": true,
+            "transferSize": 9155,
+            "resourceSize": 9132,
+            "statusCode": 200,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAHvwAAsAAAAA3EgAAQAAAAAAAAAAAAAAAAAAAA",
+            "protocol": "data",
+            "startTime": 713.1169999483973,
+            "endTime": 757.056999951601,
+            "finished": true,
+            "transferSize": 31728,
+            "resourceSize": 31728,
+            "statusCode": 200,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2",
+            "protocol": "h3-29",
+            "startTime": 739.6909999661148,
+            "endTime": 778.1499999109656,
+            "finished": true,
+            "transferSize": 9204,
+            "resourceSize": 9180,
+            "statusCode": 200,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2",
+            "protocol": "h3-29",
+            "startTime": 755.0799997989088,
+            "endTime": 778.5809999331832,
+            "finished": true,
+            "transferSize": 9751,
+            "resourceSize": 9728,
+            "statusCode": 200,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/web_accessible_resources/googletagmanager_gtm.js?secret=syhhp4",
+            "protocol": "chrome-extension",
+            "startTime": 755.9340000152588,
+            "endTime": 792.8059999831021,
+            "finished": true,
+            "transferSize": 1480,
+            "resourceSize": 1480,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          }
+        ]
+      }
+    },
+    "network-rtt": {
+      "id": "network-rtt",
+      "title": "Network Round Trip Times",
+      "description": "Network round trip times (RTT) have a large impact on performance. If the RTT to an origin is high, it's an indication that servers closer to the user could improve performance. [Learn more](https://hpbn.co/primer-on-latency-and-bandwidth/).",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "numericValue": 1.2953,
+      "numericUnit": "millisecond",
+      "displayValue": "0 ms",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "origin",
+            "itemType": "text",
+            "text": "URL"
+          },
+          {
+            "key": "rtt",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Time Spent"
+          }
+        ],
+        "items": [
+          {
+            "origin": "https://fonts.googleapis.com",
+            "rtt": 1.2953
+          },
+          {
+            "origin": "https://s.w.org",
+            "rtt": 0.8999999999999999
+          },
+          {
+            "origin": "https://fonts.gstatic.com",
+            "rtt": 0.37029999999999996
+          },
+          {
+            "origin": "https://developer.wordpress.org",
+            "rtt": 0.0798
+          }
+        ]
+      }
+    },
+    "network-server-latency": {
+      "id": "network-server-latency",
+      "title": "Server Backend Latencies",
+      "description": "Server latencies can impact web performance. If the server latency of an origin is high, it's an indication the server is overloaded or has poor backend performance. [Learn more](https://hpbn.co/primer-on-web-performance/#analyzing-the-resource-waterfall).",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "numericValue": 371.62120000000004,
+      "numericUnit": "millisecond",
+      "displayValue": "370 ms",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "origin",
+            "itemType": "text",
+            "text": "URL"
+          },
+          {
+            "key": "serverResponseTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Time Spent"
+          }
+        ],
+        "items": [
+          {
+            "origin": "https://developer.wordpress.org",
+            "serverResponseTime": 371.62120000000004
+          },
+          {
+            "origin": "https://fonts.googleapis.com",
+            "serverResponseTime": 17.1007
+          },
+          {
+            "origin": "https://s.w.org",
+            "serverResponseTime": 8.955
+          },
+          {
+            "origin": "https://fonts.gstatic.com",
+            "serverResponseTime": 3.2637000000000005
+          }
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "id": "main-thread-tasks",
+      "title": "Tasks",
+      "description": "Lists the toplevel main thread tasks that executed during page load.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Start Time"
+          },
+          {
+            "key": "duration",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 22.176,
+            "startTime": 128.851
+          },
+          {
+            "duration": 44.07,
+            "startTime": 161.537
+          },
+          {
+            "duration": 17.481,
+            "startTime": 216.339
+          },
+          {
+            "duration": 9.472,
+            "startTime": 343.654
+          },
+          {
+            "duration": 5.358,
+            "startTime": 385.252
+          },
+          {
+            "duration": 5.063,
+            "startTime": 432.729
+          },
+          {
+            "duration": 5.457,
+            "startTime": 437.8
+          },
+          {
+            "duration": 15.512,
+            "startTime": 625.213
+          },
+          {
+            "duration": 5.189,
+            "startTime": 652.718
+          },
+          {
+            "duration": 18.494,
+            "startTime": 658.545
+          },
+          {
+            "duration": 56.16,
+            "startTime": 677.046
+          },
+          {
+            "duration": 24.753,
+            "startTime": 736.475
+          },
+          {
+            "duration": 20.704,
+            "startTime": 766.671
+          },
+          {
+            "duration": 25.938,
+            "startTime": 801.267
+          },
+          {
+            "duration": 5.484,
+            "startTime": 832.809
+          },
+          {
+            "duration": 15.737,
+            "startTime": 846.23
+          },
+          {
+            "duration": 16.604,
+            "startTime": 877.082
+          }
+        ]
+      }
+    },
+    "metrics": {
+      "id": "metrics",
+      "title": "Metrics",
+      "description": "Collects all available metrics.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "numericValue": 3422,
+      "numericUnit": "millisecond",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "firstContentfulPaint": 3122,
+            "firstMeaningfulPaint": 3398,
+            "largestContentfulPaint": 3122,
+            "firstCPUIdle": 3572,
+            "interactive": 3422,
+            "speedIndex": 3122,
+            "estimatedInputLatency": 13,
+            "totalBlockingTime": 12,
+            "maxPotentialFID": 74,
+            "cumulativeLayoutShift": 0.0005263671875,
+            "cumulativeLayoutShiftAllFrames": 0.0005263671875,
+            "observedTimeOrigin": 0,
+            "observedTimeOriginTs": 1639979620170,
+            "observedNavigationStart": 0,
+            "observedNavigationStartTs": 1639979620170,
+            "observedFirstPaint": 738,
+            "observedFirstPaintTs": 1639980358607,
+            "observedFirstContentfulPaint": 738,
+            "observedFirstContentfulPaintTs": 1639980358607,
+            "observedFirstContentfulPaintAllFrames": 738,
+            "observedFirstContentfulPaintAllFramesTs": 1639980358607,
+            "observedFirstMeaningfulPaint": 855,
+            "observedFirstMeaningfulPaintTs": 1639980475300,
+            "observedLargestContentfulPaint": 738,
+            "observedLargestContentfulPaintTs": 1639980358607,
+            "observedLargestContentfulPaintAllFrames": 738,
+            "observedLargestContentfulPaintAllFramesTs": 1639980358607,
+            "observedTraceEnd": 2061,
+            "observedTraceEndTs": 1639981681260,
+            "observedLoad": 863,
+            "observedLoadTs": 1639980483361,
+            "observedDomContentLoaded": 752,
+            "observedDomContentLoadedTs": 1639980372402,
+            "observedCumulativeLayoutShift": 0.0005263671875,
+            "observedCumulativeLayoutShiftAllFrames": 0.0005263671875,
+            "observedFirstVisualChange": 738,
+            "observedFirstVisualChangeTs": 1639980358170,
+            "observedLastVisualChange": 1355,
+            "observedLastVisualChangeTs": 1639980975170,
+            "observedSpeedIndex": 764,
+            "observedSpeedIndexTs": 1639980384627,
+            "layoutShiftAvgSessionGap5s": 0.0005263671875,
+            "layoutShiftMaxSessionGap1s": 0.0005263671875,
+            "layoutShiftMaxSessionGap1sLimit5s": 0.0005263671875,
+            "layoutShiftMaxSliding1s": 0.0005263671875,
+            "layoutShiftMaxSliding300ms": 0.0005263671875
+          },
+          {
+            "lcpInvalidated": false
+          }
+        ]
+      }
+    },
+    "performance-budget": {
+      "id": "performance-budget",
+      "title": "Performance budget",
+      "description": "Keep the quantity and size of network requests under the targets set by the provided performance budget. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/budgets).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable"
+    },
+    "timing-budget": {
+      "id": "timing-budget",
+      "title": "Timing budget",
+      "description": "Set a timing budget to help you keep an eye on the performance of your site. Performant sites load fast and respond to user input events quickly. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/budgets).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable"
+    },
+    "resource-summary": {
+      "id": "resource-summary",
+      "title": "Keep request counts low and transfer sizes small",
+      "description": "To set budgets for the quantity and size of page resources, add a budget.json file. [Learn more](https://web.dev/use-lighthouse-for-performance-budgets/).",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "displayValue": "46 requests • 198 KiB",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "label",
+            "itemType": "text",
+            "text": "Resource Type"
+          },
+          {
+            "key": "requestCount",
+            "itemType": "numeric",
+            "text": "Requests"
+          },
+          {
+            "key": "transferSize",
+            "itemType": "bytes",
+            "text": "Transfer Size"
+          }
+        ],
+        "items": [
+          {
+            "resourceType": "total",
+            "label": "Total",
+            "requestCount": 46,
+            "transferSize": 202560
+          },
+          {
+            "resourceType": "stylesheet",
+            "label": "Stylesheet",
+            "requestCount": 13,
+            "transferSize": 77601
+          },
+          {
+            "resourceType": "script",
+            "label": "Script",
+            "requestCount": 24,
+            "transferSize": 70124
+          },
+          {
+            "resourceType": "font",
+            "label": "Font",
+            "requestCount": 4,
+            "transferSize": 37189
+          },
+          {
+            "resourceType": "image",
+            "label": "Image",
+            "requestCount": 3,
+            "transferSize": 10304
+          },
+          {
+            "resourceType": "document",
+            "label": "Document",
+            "requestCount": 1,
+            "transferSize": 7342
+          },
+          {
+            "resourceType": "media",
+            "label": "Media",
+            "requestCount": 0,
+            "transferSize": 0
+          },
+          {
+            "resourceType": "other",
+            "label": "Other",
+            "requestCount": 1,
+            "transferSize": 0
+          },
+          {
+            "resourceType": "third-party",
+            "label": "Third-party",
+            "requestCount": 13,
+            "transferSize": 62105
+          }
+        ]
+      }
+    },
+    "third-party-summary": {
+      "id": "third-party-summary",
+      "title": "Minimize third-party usage",
+      "description": "Third-party code can significantly impact load performance. Limit the number of redundant third-party providers and try to load third-party code after your page has primarily finished loading. [Learn more](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "displayValue": "Third-party code blocked the main thread for 0 ms",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "entity",
+            "itemType": "link",
+            "text": "Third-Party",
+            "subItemsHeading": {
+              "key": "url",
+              "itemType": "url"
+            }
+          },
+          {
+            "key": "transferSize",
+            "granularity": 1,
+            "itemType": "bytes",
+            "text": "Transfer Size",
+            "subItemsHeading": {
+              "key": "transferSize"
+            }
+          },
+          {
+            "key": "blockingTime",
+            "granularity": 1,
+            "itemType": "ms",
+            "text": "Main-Thread Blocking Time",
+            "subItemsHeading": {
+              "key": "blockingTime"
+            }
+          }
+        ],
+        "items": [
+          {
+            "mainThreadTime": 3.9199999999999995,
+            "blockingTime": 0,
+            "transferSize": 39183,
+            "entity": {
+              "type": "link",
+              "text": "Google Fonts",
+              "url": "https://fonts.google.com/"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2",
+                  "mainThreadTime": 0,
+                  "blockingTime": 0,
+                  "transferSize": 9751
+                },
+                {
+                  "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2",
+                  "mainThreadTime": 0,
+                  "blockingTime": 0,
+                  "transferSize": 9204
+                },
+                {
+                  "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+                  "mainThreadTime": 0,
+                  "blockingTime": 0,
+                  "transferSize": 9155
+                },
+                {
+                  "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2",
+                  "mainThreadTime": 0,
+                  "blockingTime": 0,
+                  "transferSize": 9079
+                }
+              ]
+            }
+          },
+          {
+            "mainThreadTime": 7.220000000000001,
+            "blockingTime": 0,
+            "transferSize": 21442,
+            "entity": {
+              "type": "link",
+              "text": "WordPress",
+              "url": "https://wp.com/"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "url": "https://s.w.org/style/wp4.css?95",
+                  "mainThreadTime": 5.048,
+                  "blockingTime": 0,
+                  "transferSize": 10508
+                },
+                {
+                  "url": "https://s.w.org/style/images/codeispoetry-2x.png?1",
+                  "mainThreadTime": 0,
+                  "blockingTime": 0,
+                  "transferSize": 5398
+                },
+                {
+                  "url": "Other resources",
+                  "transferSize": 5536,
+                  "blockingTime": 0
+                }
+              ]
+            }
+          },
+          {
+            "mainThreadTime": 1.032,
+            "blockingTime": 0,
+            "transferSize": 0,
+            "entity": {
+              "type": "link",
+              "text": "Google Tag Manager",
+              "url": "https://marketingplatform.google.com/about/tag-manager/"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": []
+            }
+          }
+        ],
+        "summary": {
+          "wastedBytes": 60625,
+          "wastedMs": 0
+        }
+      }
+    },
+    "third-party-facades": {
+      "id": "third-party-facades",
+      "title": "Lazy load third-party resources with facades",
+      "description": "Some third-party embeds can be lazy loaded. Consider replacing them with a facade until they are required. [Learn more](https://web.dev/third-party-facades/).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable"
+    },
+    "largest-contentful-paint-element": {
+      "id": "largest-contentful-paint-element",
+      "title": "Largest Contentful Paint element",
+      "description": "This is the largest contentful element painted within the viewport. [Learn More](https://web.dev/lighthouse-largest-contentful-paint/)",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "displayValue": "1 element found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "itemType": "node",
+            "text": "Element"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-3-H4",
+              "path": "1,HTML,1,BODY,5,DIV,1,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,0,H4",
+              "selector": "main#main > div.reference-landing > div.search-guide > h4.ref-intro",
+              "boundingRect": {
+                "top": 337,
+                "bottom": 447,
+                "left": 20,
+                "right": 340,
+                "width": 321,
+                "height": 110
+              },
+              "snippet": "<h4 class=\"ref-intro\">",
+              "nodeLabel": "Want to know what's going on inside WordPress? Search the Code Reference for mo…"
+            }
+          }
+        ]
+      }
+    },
+    "layout-shift-elements": {
+      "id": "layout-shift-elements",
+      "title": "Avoid large layout shifts",
+      "description": "These DOM elements contribute most to the CLS of the page.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "displayValue": "1 element found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "itemType": "node",
+            "text": "Element"
+          },
+          {
+            "key": "score",
+            "itemType": "numeric",
+            "granularity": 0.001,
+            "text": "CLS Contribution"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-4-DIV",
+              "path": "1,HTML,1,BODY,5,DIV,1,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,2,DIV,0,FORM,3,DIV",
+              "selector": "div.search-guide > div.search-section > form.searchform > div.search-post-type",
+              "boundingRect": {
+                "top": 581,
+                "bottom": 653,
+                "left": 26,
+                "right": 334,
+                "width": 308,
+                "height": 72
+              },
+              "snippet": "<div class=\"search-post-type\">",
+              "nodeLabel": "Filter by type:\n Functions  Hooks  Classes  Methods"
+            },
+            "score": 0.0005263671875
+          }
+        ]
+      }
+    },
+    "long-tasks": {
+      "id": "long-tasks",
+      "title": "Avoid long main-thread tasks",
+      "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn more](https://web.dev/long-tasks-devtools/)",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "displayValue": "10 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "startTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Start Time"
+          },
+          {
+            "key": "duration",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "duration": 176,
+            "startTime": 1210.6212
+          },
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "duration": 112,
+            "startTime": 1386.6212
+          },
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "duration": 89,
+            "startTime": 1121.6212
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b",
+            "duration": 74,
+            "startTime": 3371.6211999999996
+          },
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "duration": 69.99999999999977,
+            "startTime": 2043.5838999999999
+          },
+          {
+            "url": "Unattributable",
+            "duration": 66,
+            "startTime": 1654.6212
+          },
+          {
+            "url": "chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js",
+            "duration": 63,
+            "startTime": 1591.6212
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+            "duration": 62,
+            "startTime": 3071.6211999999996
+          },
+          {
+            "url": "https://developer.wordpress.org/reference/",
+            "duration": 52,
+            "startTime": 1539.6212
+          },
+          {
+            "url": "https://s.w.org/style/js/navigation.min.js?20190128",
+            "duration": 50,
+            "startTime": 3671.6211999999996
+          }
+        ]
+      }
+    },
+    "non-composited-animations": {
+      "id": "non-composited-animations",
+      "title": "Avoid non-composited animations",
+      "description": "Animations which are not composited can be janky and increase CLS. [Learn more](https://web.dev/non-composited-animations)",
+      "score": null,
+      "scoreDisplayMode": "notApplicable",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "unsized-images": {
+      "id": "unsized-images",
+      "title": "Image elements have explicit `width` and `height`",
+      "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn more](https://web.dev/optimize-cls/#images-without-dimensions)",
+      "score": null,
+      "scoreDisplayMode": "notApplicable",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "preload-lcp-image": {
+      "id": "preload-lcp-image",
+      "title": "Preload Largest Contentful Paint image",
+      "description": "Preload the image used by the LCP element in order to improve your LCP time. [Learn more](https://web.dev/optimize-lcp/#preload-important-resources).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "uses-long-cache-ttl": {
+      "id": "uses-long-cache-ttl",
+      "title": "Uses efficient cache policy on static assets",
+      "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://web.dev/uses-long-cache-ttl/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "byte",
+      "displayValue": "0 resources found",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": [],
+        "summary": {
+          "wastedBytes": 0
+        }
+      }
+    },
+    "total-byte-weight": {
+      "id": "total-byte-weight",
+      "title": "Avoids enormous network payloads",
+      "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://web.dev/total-byte-weight/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 202560,
+      "numericUnit": "byte",
+      "displayValue": "Total size was 198 KiB",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "itemType": "bytes",
+            "text": "Transfer Size"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50821",
+            "totalBytes": 35175
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+            "totalBytes": 30366
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+            "totalBytes": 13577
+          },
+          {
+            "url": "https://s.w.org/style/wp4.css?95",
+            "totalBytes": 10508
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2",
+            "totalBytes": 9751
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2",
+            "totalBytes": 9204
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2",
+            "totalBytes": 9155
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2",
+            "totalBytes": 9079
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dist/block-library/style.min.css?ver=5.8-alpha-50821",
+            "totalBytes": 8950
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b",
+            "totalBytes": 8820
+          }
+        ]
+      }
+    },
+    "offscreen-images": {
+      "id": "offscreen-images",
+      "title": "Defer offscreen images",
+      "description": "Consider lazy-loading offscreen and hidden images after all critical resources have finished loading to lower time to interactive. [Learn more](https://web.dev/offscreen-images/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "render-blocking-resources": {
+      "id": "render-blocking-resources",
+      "title": "Eliminate render-blocking resources",
+      "description": "Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. [Learn more](https://web.dev/render-blocking-resources/).",
+      "score": 0.46,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1063,
+      "numericUnit": "millisecond",
+      "displayValue": "Potential savings of 1,060 ms",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedMs",
+            "valueType": "timespanMs",
+            "label": "Potential Savings"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic",
+            "totalBytes": 979,
+            "wastedMs": 771
+          },
+          {
+            "url": "https://s.w.org/style/wp4.css?95",
+            "totalBytes": 10508,
+            "wastedMs": 912
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50821",
+            "totalBytes": 35175,
+            "wastedMs": 750
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dist/block-library/style.min.css?ver=5.8-alpha-50821",
+            "totalBytes": 8950,
+            "wastedMs": 150
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&display=fallback&ver=5.8-alpha-50821",
+            "totalBytes": 1015,
+            "wastedMs": 151
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+            "totalBytes": 13577,
+            "wastedMs": 300
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.5.1",
+            "totalBytes": 30366,
+            "wastedMs": 450
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b",
+            "totalBytes": 2073,
+            "wastedMs": 150
+          }
+        ],
+        "overallSavingsMs": 1063
+      }
+    },
+    "unminified-css": {
+      "id": "unminified-css",
+      "title": "Minify CSS",
+      "description": "Minifying CSS files can reduce network payload sizes. [Learn more](https://web.dev/unminified-css/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "Potential savings of 5 KiB",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+            "totalBytes": 13577,
+            "wastedBytes": 2540,
+            "wastedPercent": 18.70976561529093
+          },
+          {
+            "url": "https://s.w.org/style/wp4.css?95",
+            "totalBytes": 10508,
+            "wastedBytes": 2244,
+            "wastedPercent": 21.35246158016556
+          }
+        ],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 4784
+      }
+    },
+    "unminified-javascript": {
+      "id": "unminified-javascript",
+      "title": "Minify JavaScript",
+      "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn more](https://web.dev/unminified-javascript/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "unused-css-rules": {
+      "id": "unused-css-rules",
+      "title": "Remove unused CSS",
+      "description": "Remove dead rules from stylesheets and defer the loading of CSS not used for above-the-fold content to reduce unnecessary bytes consumed by network activity. [Learn more](https://web.dev/unused-css-rules/).",
+      "score": 0.48,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 900,
+      "numericUnit": "millisecond",
+      "displayValue": "Potential savings of 45 KiB",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://developer.wordpress.org/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50821",
+            "wastedBytes": 34876,
+            "wastedPercent": 99.14938321811034,
+            "totalBytes": 35175
+          },
+          {
+            "url": "https://developer.wordpress.org/wp-content/themes/pub/wporg-developer/stylesheets/main.css?ver=20200713",
+            "wastedBytes": 11244,
+            "wastedPercent": 82.81758755250664,
+            "totalBytes": 13577
+          }
+        ],
+        "overallSavingsMs": 900,
+        "overallSavingsBytes": 46120
+      }
+    },
+    "unused-javascript": {
+      "id": "unused-javascript",
+      "title": "Remove unused JavaScript",
+      "description": "Remove unused JavaScript to reduce bytes consumed by network activity. [Learn more](https://web.dev/unused-javascript/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-webp-images": {
+      "id": "uses-webp-images",
+      "title": "Serve images in next-gen formats",
+      "description": "Image formats like JPEG 2000, JPEG XR, and WebP often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. [Learn more](https://web.dev/uses-webp-images/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-optimized-images": {
+      "id": "uses-optimized-images",
+      "title": "Efficiently encode images",
+      "description": "Optimized images load faster and consume less cellular data. [Learn more](https://web.dev/uses-optimized-images/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-text-compression": {
+      "id": "uses-text-compression",
+      "title": "Enable text compression",
+      "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more](https://web.dev/uses-text-compression/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-responsive-images": {
+      "id": "uses-responsive-images",
+      "title": "Properly size images",
+      "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn more](https://web.dev/uses-responsive-images/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "efficient-animated-content": {
+      "id": "efficient-animated-content",
+      "title": "Use video formats for animated content",
+      "description": "Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes. [Learn more](https://web.dev/efficient-animated-content/)",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "duplicated-javascript": {
+      "id": "duplicated-javascript",
+      "title": "Remove duplicate modules in JavaScript bundles",
+      "description": "Remove large, duplicate JavaScript modules from bundles to reduce unnecessary bytes consumed by network activity. ",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "legacy-javascript": {
+      "id": "legacy-javascript",
+      "title": "Avoid serving legacy JavaScript to modern browsers",
+      "description": "Polyfills and transforms enable legacy browsers to use new JavaScript features. However, many aren't necessary for modern browsers. For your bundled JavaScript, adopt a modern script deployment strategy using module/nomodule feature detection to reduce the amount of code shipped to modern browsers, while retaining support for legacy browsers. [Learn More](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "dom-size": {
+      "id": "dom-size",
+      "title": "Avoids an excessive DOM size",
+      "description": "A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn more](https://web.dev/dom-size/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 280,
+      "numericUnit": "element",
+      "displayValue": "280 elements",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "statistic",
+            "itemType": "text",
+            "text": "Statistic"
+          },
+          {
+            "key": "node",
+            "itemType": "node",
+            "text": "Element"
+          },
+          {
+            "key": "value",
+            "itemType": "numeric",
+            "text": "Value"
+          }
+        ],
+        "items": [
+          {
+            "statistic": "Total DOM Elements",
+            "value": 280
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "107-61-A",
+              "path": "1,HTML,1,BODY,5,DIV,1,DIV,0,DIV,1,MAIN,0,DIV,4,DIV,1,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+              "selector": "div.menu-reference-api-menu-container > ul#menu-reference-api-menu > li#menu-item-124908 > a",
+              "boundingRect": {
+                "top": 1531,
+                "bottom": 1549,
+                "left": 121,
+                "right": 239,
+                "width": 117,
+                "height": 18
+              },
+              "snippet": "<a href=\"https://developer.wordpress.org/apis/handbook/dashboard-widgets/\">",
+              "nodeLabel": "Dashboard widgets"
+            },
+            "statistic": "Maximum DOM Depth",
+            "value": 13
+          },
+          {
+            "node": {
+              "type": "node",
+              "lhId": "107-62-BODY",
+              "path": "1,HTML,1,BODY",
+              "selector": "body#wordpress-org",
+              "boundingRect": {
+                "top": 46,
+                "bottom": 2556,
+                "left": 0,
+                "right": 360,
+                "width": 360,
+                "height": 2510
+              },
+              "snippet": "<body id=\"wordpress-org\" class=\"page-template page-template-page-reference-landing page-template-page-refe…\">",
+              "nodeLabel": "body"
+            },
+            "statistic": "Maximum Child Elements",
+            "value": 26
+          }
+        ]
+      }
+    },
+    "no-document-write": {
+      "id": "no-document-write",
+      "title": "Avoids `document.write()`",
+      "description": "For users on slow connections, external scripts dynamically injected via `document.write()` can delay page load by tens of seconds. [Learn more](https://web.dev/no-document-write/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "uses-http2": {
+      "id": "uses-http2",
+      "title": "Use HTTP/2",
+      "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more](https://web.dev/uses-http2/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "uses-passive-event-listeners": {
+      "id": "uses-passive-event-listeners",
+      "title": "Does not use passive listeners to improve scrolling performance",
+      "description": "Consider marking your touch and wheel event listeners as `passive` to improve your page's scroll performance. [Learn more](https://web.dev/uses-passive-event-listeners/).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "source",
+            "itemType": "source-location",
+            "text": "Source"
+          }
+        ],
+        "items": [
+          {
+            "source": {
+              "type": "source-location",
+              "url": "https://developer.wordpress.org/wp-includes/js/admin-bar.min.js?ver=5.8-alpha-50821",
+              "urlProvider": "network",
+              "line": 1,
+              "column": 2786
+            }
+          }
+        ]
+      }
+    }
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 360,
+      "height": 640,
+      "deviceScaleFactor": 2.625,
+      "disabled": true
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4420.0 Mobile Safari/537.36 Chrome-Lighthouse",
+    "auditMode": false,
+    "gatherMode": false,
+    "disableStorageReset": false,
+    "channel": "devtools",
+    "budgets": null,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance"
+    ],
+    "skipAudits": null
+  },
+  "categories": {
+    "performance": {
+      "title": "Performance",
+      "auditRefs": [
+        {
+          "id": "first-contentful-paint",
+          "weight": 15,
+          "group": "metrics"
+        },
+        {
+          "id": "speed-index",
+          "weight": 15,
+          "group": "metrics"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "weight": 25,
+          "group": "metrics"
+        },
+        {
+          "id": "interactive",
+          "weight": 15,
+          "group": "metrics"
+        },
+        {
+          "id": "total-blocking-time",
+          "weight": 25,
+          "group": "metrics"
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "weight": 5,
+          "group": "metrics"
+        },
+        {
+          "id": "first-cpu-idle",
+          "weight": 0
+        },
+        {
+          "id": "max-potential-fid",
+          "weight": 0
+        },
+        {
+          "id": "first-meaningful-paint",
+          "weight": 0
+        },
+        {
+          "id": "estimated-input-latency",
+          "weight": 0
+        },
+        {
+          "id": "render-blocking-resources",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-responsive-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "offscreen-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unminified-css",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unminified-javascript",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unused-css-rules",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unused-javascript",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-optimized-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-webp-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-text-compression",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-rel-preconnect",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "server-response-time",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "redirects",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-rel-preload",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-http2",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "efficient-animated-content",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "duplicated-javascript",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "legacy-javascript",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "preload-lcp-image",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "total-byte-weight",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "dom-size",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "critical-request-chains",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "user-timings",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "bootup-time",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "font-display",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "performance-budget",
+          "weight": 0,
+          "group": "budgets"
+        },
+        {
+          "id": "timing-budget",
+          "weight": 0,
+          "group": "budgets"
+        },
+        {
+          "id": "resource-summary",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "third-party-summary",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "third-party-facades",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "largest-contentful-paint-element",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "layout-shift-elements",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "uses-passive-event-listeners",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "no-document-write",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "long-tasks",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "non-composited-animations",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "unsized-images",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "network-requests",
+          "weight": 0
+        },
+        {
+          "id": "network-rtt",
+          "weight": 0
+        },
+        {
+          "id": "network-server-latency",
+          "weight": 0
+        },
+        {
+          "id": "main-thread-tasks",
+          "weight": 0
+        },
+        {
+          "id": "diagnostics",
+          "weight": 0
+        },
+        {
+          "id": "metrics",
+          "weight": 0
+        },
+        {
+          "id": "screenshot-thumbnails",
+          "weight": 0
+        },
+        {
+          "id": "final-screenshot",
+          "weight": 0
+        }
+      ],
+      "id": "performance",
+      "score": 0.87
+    }
+  },
+  "categoryGroups": {
+    "metrics": {
+      "title": "Metrics"
+    },
+    "load-opportunities": {
+      "title": "Opportunities",
+      "description": "These suggestions can help your page load faster. They don't [directly affect](https://web.dev/performance-scoring/) the Performance score."
+    },
+    "budgets": {
+      "title": "Budgets",
+      "description": "Performance budgets set standards for the performance of your site."
+    },
+    "diagnostics": {
+      "title": "Diagnostics",
+      "description": "More information about the performance of your application. These numbers don't [directly affect](https://web.dev/performance-scoring/) the Performance score."
+    },
+    "pwa-installable": {
+      "title": "Installable"
+    },
+    "pwa-optimized": {
+      "title": "PWA Optimized"
+    },
+    "a11y-best-practices": {
+      "title": "Best practices",
+      "description": "These items highlight common accessibility best practices."
+    },
+    "a11y-color-contrast": {
+      "title": "Contrast",
+      "description": "These are opportunities to improve the legibility of your content."
+    },
+    "a11y-names-labels": {
+      "title": "Names and labels",
+      "description": "These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader."
+    },
+    "a11y-navigation": {
+      "title": "Navigation",
+      "description": "These are opportunities to improve keyboard navigation in your application."
+    },
+    "a11y-aria": {
+      "title": "ARIA",
+      "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+    },
+    "a11y-language": {
+      "title": "Internationalization and localization",
+      "description": "These are opportunities to improve the interpretation of your content by users in different locales."
+    },
+    "a11y-audio-video": {
+      "title": "Audio and video",
+      "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
+    },
+    "a11y-tables-lists": {
+      "title": "Tables and lists",
+      "description": "These are opportunities to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
+    },
+    "seo-mobile": {
+      "title": "Mobile Friendly",
+      "description": "Make sure your pages are mobile friendly so users don’t have to pinch or zoom in order to read the content pages. [Learn more](https://developers.google.com/search/mobile-sites/)."
+    },
+    "seo-content": {
+      "title": "Content Best Practices",
+      "description": "Format your HTML in a way that enables crawlers to better understand your app’s content."
+    },
+    "seo-crawl": {
+      "title": "Crawling and Indexing",
+      "description": "To appear in search results, crawlers need access to your app."
+    },
+    "best-practices-trust-safety": {
+      "title": "Trust and Safety"
+    },
+    "best-practices-ux": {
+      "title": "User Experience"
+    },
+    "best-practices-browser-compat": {
+      "title": "Browser Compatibility"
+    },
+    "best-practices-general": {
+      "title": "General"
+    },
+    "lighthouse-plugin-publisher-ads-metrics": {
+      "title": "Metrics"
+    },
+    "lighthouse-plugin-publisher-ads-ads-performance": {
+      "title": "Ad Speed"
+    },
+    "lighthouse-plugin-publisher-ads-ads-best-practices": {
+      "title": "Tag Best Practices"
+    }
+  },
+  "timing": {
+    "entries": [
+      {
+        "startTime": 83.9,
+        "name": "lh:init:config",
+        "duration": 310.51,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 97.23,
+        "name": "lh:config:requireGatherers",
+        "duration": 8.4,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 105.74,
+        "name": "lh:config:requireAudits",
+        "duration": 251.85,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 395.2,
+        "name": "lh:init:connect",
+        "duration": 2,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 397.27,
+        "name": "lh:gather:loadBlank",
+        "duration": 59.95,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 457.4,
+        "name": "lh:gather:getVersion",
+        "duration": 1.86,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 459.59,
+        "name": "lh:gather:getBenchmarkIndex",
+        "duration": 1005.71,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1465.5,
+        "name": "lh:gather:setupDriver",
+        "duration": 38.14,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1503.87,
+        "name": "lh:gather:runPass-defaultPass",
+        "duration": 3175.26,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1503.97,
+        "name": "lh:gather:loadBlank",
+        "duration": 36.49,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1540.61,
+        "name": "lh:gather:setupPassNetwork",
+        "duration": 2,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1542.87,
+        "name": "lh:driver:cleanBrowserCaches",
+        "duration": 25.04,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1568.11,
+        "name": "lh:gather:beforePass",
+        "duration": 20.78,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1568.33,
+        "name": "lh:gather:beforePass:CSSUsage",
+        "duration": 0.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1568.44,
+        "name": "lh:gather:beforePass:JsUsage",
+        "duration": 17.45,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1585.92,
+        "name": "lh:gather:beforePass:ViewportDimensions",
+        "duration": 0.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1586.05,
+        "name": "lh:gather:beforePass:ConsoleMessages",
+        "duration": 1.36,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.45,
+        "name": "lh:gather:beforePass:ImageElements",
+        "duration": 0.04,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.5,
+        "name": "lh:gather:beforePass:LinkElements",
+        "duration": 0.04,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.55,
+        "name": "lh:gather:beforePass:ScriptElements",
+        "duration": 0.02,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.59,
+        "name": "lh:gather:beforePass:DOMStats",
+        "duration": 0.02,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.62,
+        "name": "lh:gather:beforePass:OptimizedImages",
+        "duration": 0.01,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.64,
+        "name": "lh:gather:beforePass:ResponseCompression",
+        "duration": 0.02,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1587.66,
+        "name": "lh:gather:beforePass:TagsBlockingFirstPaint",
+        "duration": 0.63,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1588.31,
+        "name": "lh:gather:beforePass:TraceElements",
+        "duration": 0.46,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1588.79,
+        "name": "lh:gather:beforePass:SourceMaps",
+        "duration": 0.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1588.87,
+        "name": "lh:gather:beforePass:FullPageScreenshot",
+        "duration": 0.02,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1588.94,
+        "name": "lh:gather:beginRecording",
+        "duration": 2.24,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 1591.27,
+        "name": "lh:gather:loadPage-defaultPass",
+        "duration": 2058.67,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3650.14,
+        "name": "lh:gather:pass",
+        "duration": 1.2,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 3651.51,
+        "name": "lh:gather:getTrace",
+        "duration": 639.96,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4291.5,
+        "name": "lh:gather:getDevtoolsLog",
+        "duration": 1.76,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4294.08,
+        "name": "lh:gather:afterPass",
+        "duration": 384.9,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4298.44,
+        "name": "lh:gather:afterPass:CSSUsage",
+        "duration": 78.81,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4377.27,
+        "name": "lh:gather:afterPass:JsUsage",
+        "duration": 20.44,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4397.74,
+        "name": "lh:gather:afterPass:ViewportDimensions",
+        "duration": 4.37,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4402.13,
+        "name": "lh:gather:afterPass:ConsoleMessages",
+        "duration": 2.27,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4404.43,
+        "name": "lh:gather:afterPass:ImageElements",
+        "duration": 80.29,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4484.75,
+        "name": "lh:gather:afterPass:LinkElements",
+        "duration": 8.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4493,
+        "name": "lh:gather:afterPass:ScriptElements",
+        "duration": 8.06,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4501.08,
+        "name": "lh:gather:afterPass:DOMStats",
+        "duration": 4.75,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4505.85,
+        "name": "lh:gather:afterPass:OptimizedImages",
+        "duration": 0.95,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4506.83,
+        "name": "lh:gather:afterPass:ResponseCompression",
+        "duration": 0.84,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4507.69,
+        "name": "lh:gather:afterPass:TagsBlockingFirstPaint",
+        "duration": 2.91,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4510.61,
+        "name": "lh:gather:afterPass:TraceElements",
+        "duration": 49.34,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4559.98,
+        "name": "lh:gather:afterPass:SourceMaps",
+        "duration": 1.6,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4561.6,
+        "name": "lh:gather:afterPass:FullPageScreenshot",
+        "duration": 117.33,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4679.31,
+        "name": "lh:gather:populateBaseArtifacts",
+        "duration": 21.97,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4680.95,
+        "name": "lh:gather:collectStacks",
+        "duration": 20.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4702.21,
+        "name": "lh:gather:disconnect",
+        "duration": 9.72,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 394.61,
+        "name": "lh:runner:run",
+        "duration": 5266.41,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4712.17,
+        "name": "lh:runner:auditing",
+        "duration": 948.3,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4713.34,
+        "name": "lh:audit:first-contentful-paint",
+        "duration": 58.92,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4714.21,
+        "name": "lh:computed:FirstContentfulPaint",
+        "duration": 54.56,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4714.31,
+        "name": "lh:computed:NetworkRecords",
+        "duration": 1.75,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4716.1,
+        "name": "lh:computed:TraceOfTab",
+        "duration": 30.8,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4747.01,
+        "name": "lh:computed:LanternFirstContentfulPaint",
+        "duration": 21.73,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4747.18,
+        "name": "lh:computed:PageDependencyGraph",
+        "duration": 7.47,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4754.7,
+        "name": "lh:computed:LoadSimulator",
+        "duration": 1.78,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4754.81,
+        "name": "lh:computed:NetworkAnalysis",
+        "duration": 1.51,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4772.83,
+        "name": "lh:audit:largest-contentful-paint",
+        "duration": 17.71,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4774.16,
+        "name": "lh:computed:LargestContentfulPaint",
+        "duration": 13.82,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4774.24,
+        "name": "lh:computed:LanternLargestContentfulPaint",
+        "duration": 13.69,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4791.3,
+        "name": "lh:audit:first-meaningful-paint",
+        "duration": 16.43,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4792.23,
+        "name": "lh:computed:FirstMeaningfulPaint",
+        "duration": 12.69,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4792.29,
+        "name": "lh:computed:LanternFirstMeaningfulPaint",
+        "duration": 12.58,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4808.13,
+        "name": "lh:audit:speed-index",
+        "duration": 312.87,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4808.79,
+        "name": "lh:computed:SpeedIndex",
+        "duration": 311.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4808.89,
+        "name": "lh:computed:LanternSpeedIndex",
+        "duration": 310.95,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 4808.99,
+        "name": "lh:computed:Speedline",
+        "duration": 300.91,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5121.03,
+        "name": "lh:audit:screenshot-thumbnails",
+        "duration": 225.57,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5346.65,
+        "name": "lh:audit:final-screenshot",
+        "duration": 1.4,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5346.91,
+        "name": "lh:computed:Screenshots",
+        "duration": 1.09,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5350.22,
+        "name": "lh:audit:estimated-input-latency",
+        "duration": 13.79,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5352.43,
+        "name": "lh:computed:EstimatedInputLatency",
+        "duration": 10.05,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5352.53,
+        "name": "lh:computed:LanternEstimatedInputLatency",
+        "duration": 9.93,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5364.48,
+        "name": "lh:audit:total-blocking-time",
+        "duration": 15.97,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5365.49,
+        "name": "lh:computed:TotalBlockingTime",
+        "duration": 13.13,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5365.59,
+        "name": "lh:computed:LanternTotalBlockingTime",
+        "duration": 12.99,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5365.69,
+        "name": "lh:computed:LanternInteractive",
+        "duration": 5.05,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5380.96,
+        "name": "lh:audit:max-potential-fid",
+        "duration": 10.81,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5382.1,
+        "name": "lh:computed:MaxPotentialFID",
+        "duration": 8.73,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5382.21,
+        "name": "lh:computed:LanternMaxPotentialFID",
+        "duration": 8.58,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5392.1,
+        "name": "lh:audit:cumulative-layout-shift",
+        "duration": 1.75,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5392.53,
+        "name": "lh:computed:CumulativeLayoutShift",
+        "duration": 0.63,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5394.24,
+        "name": "lh:audit:server-response-time",
+        "duration": 2.02,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5395,
+        "name": "lh:computed:MainResource",
+        "duration": 0.16,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5396.53,
+        "name": "lh:audit:first-cpu-idle",
+        "duration": 6.77,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5397.07,
+        "name": "lh:computed:FirstCPUIdle",
+        "duration": 5.48,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5397.14,
+        "name": "lh:computed:LanternFirstCPUIdle",
+        "duration": 5.38,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5403.57,
+        "name": "lh:audit:interactive",
+        "duration": 2.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5405.05,
+        "name": "lh:computed:Interactive",
+        "duration": 0.09,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5406.11,
+        "name": "lh:audit:user-timings",
+        "duration": 2,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5406.54,
+        "name": "lh:computed:UserTimings",
+        "duration": 0.76,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5408.58,
+        "name": "lh:audit:critical-request-chains",
+        "duration": 3.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5409.11,
+        "name": "lh:computed:CriticalRequestChains",
+        "duration": 0.55,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5412.16,
+        "name": "lh:audit:redirects",
+        "duration": 2.56,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5416.7,
+        "name": "lh:audit:mainthread-work-breakdown",
+        "duration": 16.74,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5418.47,
+        "name": "lh:computed:MainThreadTasks",
+        "duration": 12.4,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5434.05,
+        "name": "lh:audit:bootup-time",
+        "duration": 4.59,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5438.92,
+        "name": "lh:audit:uses-rel-preload",
+        "duration": 2.68,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5439.44,
+        "name": "lh:computed:LoadSimulator",
+        "duration": 0.08,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5441.87,
+        "name": "lh:audit:uses-rel-preconnect",
+        "duration": 1.84,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5444.17,
+        "name": "lh:audit:font-display",
+        "duration": 6.75,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5450.96,
+        "name": "lh:audit:diagnostics",
+        "duration": 0.86,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5451.85,
+        "name": "lh:audit:network-requests",
+        "duration": 0.94,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5453.18,
+        "name": "lh:audit:network-rtt",
+        "duration": 1.54,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5455.16,
+        "name": "lh:audit:network-server-latency",
+        "duration": 1.5,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5456.69,
+        "name": "lh:audit:main-thread-tasks",
+        "duration": 0.37,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5457.08,
+        "name": "lh:audit:metrics",
+        "duration": 3.04,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5457.37,
+        "name": "lh:computed:TimingSummary",
+        "duration": 2.51,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5457.66,
+        "name": "lh:computed:FirstContentfulPaintAllFrames",
+        "duration": 0.08,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5457.82,
+        "name": "lh:computed:LargestContentfulPaintAllFrames",
+        "duration": 0.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5457.97,
+        "name": "lh:computed:CumulativeLayoutShiftAllFrames",
+        "duration": 0.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5458.26,
+        "name": "lh:computed:LayoutShiftVariants",
+        "duration": 0.77,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5460.46,
+        "name": "lh:audit:performance-budget",
+        "duration": 1.57,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5460.92,
+        "name": "lh:computed:ResourceSummary",
+        "duration": 0.58,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5462.38,
+        "name": "lh:audit:timing-budget",
+        "duration": 1.2,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5463.85,
+        "name": "lh:audit:resource-summary",
+        "duration": 1.97,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5466.6,
+        "name": "lh:audit:third-party-summary",
+        "duration": 5.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5472.02,
+        "name": "lh:audit:third-party-facades",
+        "duration": 3.54,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5475.82,
+        "name": "lh:audit:largest-contentful-paint-element",
+        "duration": 1.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5477.16,
+        "name": "lh:audit:layout-shift-elements",
+        "duration": 0.87,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5478.27,
+        "name": "lh:audit:long-tasks",
+        "duration": 3.22,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5481.7,
+        "name": "lh:audit:non-composited-animations",
+        "duration": 1.84,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5484.19,
+        "name": "lh:audit:unsized-images",
+        "duration": 1.45,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5485.91,
+        "name": "lh:audit:preload-lcp-image",
+        "duration": 10.54,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5486.4,
+        "name": "lh:computed:LanternLargestContentfulPaint",
+        "duration": 9.3,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5486.44,
+        "name": "lh:computed:LanternFirstContentfulPaint",
+        "duration": 3.81,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5496.48,
+        "name": "lh:audit:full-page-screenshot",
+        "duration": 0.16,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5496.98,
+        "name": "lh:audit:uses-long-cache-ttl",
+        "duration": 3.7,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5501,
+        "name": "lh:audit:total-byte-weight",
+        "duration": 1.49,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5502.73,
+        "name": "lh:audit:offscreen-images",
+        "duration": 4.75,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5507.81,
+        "name": "lh:audit:render-blocking-resources",
+        "duration": 7.8,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5508.37,
+        "name": "lh:computed:UnusedCSS",
+        "duration": 0.68,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5509.1,
+        "name": "lh:computed:FirstContentfulPaint",
+        "duration": 3.19,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5509.16,
+        "name": "lh:computed:LanternFirstContentfulPaint",
+        "duration": 3.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5515.96,
+        "name": "lh:audit:unminified-css",
+        "duration": 44.06,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5560.26,
+        "name": "lh:audit:unminified-javascript",
+        "duration": 9.86,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5570.62,
+        "name": "lh:audit:unused-css-rules",
+        "duration": 6.71,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5577.55,
+        "name": "lh:audit:unused-javascript",
+        "duration": 21.3,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5578.05,
+        "name": "lh:computed:JSBundles",
+        "duration": 0.14,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5578.31,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.44,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5578.79,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 5.15,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5584.01,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 5.94,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.01,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.12,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.08,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.27,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.19,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.49,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.08,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.63,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.76,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.07,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5590.89,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.1,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.04,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.1,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.22,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.1,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.38,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.1,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.56,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.73,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.12,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5591.93,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5592.12,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.12,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5592.32,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.15,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5592.56,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.31,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5592.98,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.15,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5593.25,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.19,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5593.53,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.13,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5593.77,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.13,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5594.02,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.13,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5594.31,
+        "name": "lh:computed:UnusedJavascriptSummary",
+        "duration": 0.18,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5599.61,
+        "name": "lh:audit:uses-webp-images",
+        "duration": 6.69,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5606.63,
+        "name": "lh:audit:uses-optimized-images",
+        "duration": 4.14,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5611.04,
+        "name": "lh:audit:uses-text-compression",
+        "duration": 3.82,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5615.1,
+        "name": "lh:audit:uses-responsive-images",
+        "duration": 4.73,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5620.13,
+        "name": "lh:audit:efficient-animated-content",
+        "duration": 3.03,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5623.39,
+        "name": "lh:audit:duplicated-javascript",
+        "duration": 3.93,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5623.91,
+        "name": "lh:computed:ModuleDuplication",
+        "duration": 0.25,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5624.03,
+        "name": "lh:computed:JSBundles",
+        "duration": 0.06,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5627.73,
+        "name": "lh:audit:legacy-javascript",
+        "duration": 22.4,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5651.58,
+        "name": "lh:audit:dom-size",
+        "duration": 2.11,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5654,
+        "name": "lh:audit:no-document-write",
+        "duration": 1.17,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5655.39,
+        "name": "lh:audit:uses-http2",
+        "duration": 3.43,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5659.16,
+        "name": "lh:audit:uses-passive-event-listeners",
+        "duration": 1.29,
+        "entryType": "measure"
+      },
+      {
+        "startTime": 5660.48,
+        "name": "lh:runner:generate",
+        "duration": 0.46,
+        "entryType": "measure"
+      }
+    ],
+    "total": 5266.41
+  },
+  "i18n": {
+    "rendererFormattedStrings": {},
+    "icuMessagePaths": {
+      "lighthouse-core/lib/i18n/i18n.js | firstContentfulPaintMetric": [
+        "audits[first-contentful-paint].title"
+      ],
+      "lighthouse-core/audits/metrics/first-contentful-paint.js | description": [
+        "audits[first-contentful-paint].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | seconds": [
+        {
+          "values": {
+            "timeInMs": 3121.6212
+          },
+          "path": "audits[first-contentful-paint].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 3121.6212
+          },
+          "path": "audits[largest-contentful-paint].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 3397.9561000000003
+          },
+          "path": "audits[first-meaningful-paint].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 3121.6212
+          },
+          "path": "audits[speed-index].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 3571.6211999999996
+          },
+          "path": "audits[first-cpu-idle].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 3421.78865
+          },
+          "path": "audits.interactive.displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 1783.9879999999998
+          },
+          "path": "audits[mainthread-work-breakdown].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 438.56399999999996
+          },
+          "path": "audits[bootup-time].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | largestContentfulPaintMetric": [
+        "audits[largest-contentful-paint].title"
+      ],
+      "lighthouse-core/audits/metrics/largest-contentful-paint.js | description": [
+        "audits[largest-contentful-paint].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | firstMeaningfulPaintMetric": [
+        "audits[first-meaningful-paint].title"
+      ],
+      "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": [
+        "audits[first-meaningful-paint].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | speedIndexMetric": [
+        "audits[speed-index].title"
+      ],
+      "lighthouse-core/audits/metrics/speed-index.js | description": [
+        "audits[speed-index].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | estimatedInputLatencyMetric": [
+        "audits[estimated-input-latency].title"
+      ],
+      "lighthouse-core/audits/metrics/estimated-input-latency.js | description": [
+        "audits[estimated-input-latency].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | ms": [
+        {
+          "values": {
+            "timeInMs": 12.8
+          },
+          "path": "audits[estimated-input-latency].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 12
+          },
+          "path": "audits[total-blocking-time].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 74
+          },
+          "path": "audits[max-potential-fid].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 1.2953
+          },
+          "path": "audits[network-rtt].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 371.62120000000004
+          },
+          "path": "audits[network-server-latency].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | totalBlockingTimeMetric": [
+        "audits[total-blocking-time].title"
+      ],
+      "lighthouse-core/audits/metrics/total-blocking-time.js | description": [
+        "audits[total-blocking-time].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | maxPotentialFIDMetric": [
+        "audits[max-potential-fid].title"
+      ],
+      "lighthouse-core/audits/metrics/max-potential-fid.js | description": [
+        "audits[max-potential-fid].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | cumulativeLayoutShiftMetric": [
+        "audits[cumulative-layout-shift].title"
+      ],
+      "lighthouse-core/audits/metrics/cumulative-layout-shift.js | description": [
+        "audits[cumulative-layout-shift].description"
+      ],
+      "lighthouse-core/audits/server-response-time.js | title": [
+        "audits[server-response-time].title"
+      ],
+      "lighthouse-core/audits/server-response-time.js | description": [
+        "audits[server-response-time].description"
+      ],
+      "lighthouse-core/audits/server-response-time.js | displayValue": [
+        {
+          "values": {
+            "timeInMs": 115.164
+          },
+          "path": "audits[server-response-time].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnURL": [
+        "audits[server-response-time].details.headings[0].label",
+        "audits[bootup-time].details.headings[0].text",
+        "audits[font-display].details.headings[0].text",
+        "audits[network-rtt].details.headings[0].text",
+        "audits[network-server-latency].details.headings[0].text",
+        "audits[long-tasks].details.headings[0].text",
+        "audits[total-byte-weight].details.headings[0].text",
+        "audits[render-blocking-resources].details.headings[0].label",
+        "audits[unminified-css].details.headings[0].label",
+        "audits[unused-css-rules].details.headings[0].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnTimeSpent": [
+        "audits[server-response-time].details.headings[1].label",
+        "audits[mainthread-work-breakdown].details.headings[1].text",
+        "audits[network-rtt].details.headings[1].text",
+        "audits[network-server-latency].details.headings[1].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | firstCPUIdleMetric": [
+        "audits[first-cpu-idle].title"
+      ],
+      "lighthouse-core/audits/metrics/first-cpu-idle.js | description": [
+        "audits[first-cpu-idle].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | interactiveMetric": [
+        "audits.interactive.title"
+      ],
+      "lighthouse-core/audits/metrics/interactive.js | description": [
+        "audits.interactive.description"
+      ],
+      "lighthouse-core/audits/user-timings.js | title": [
+        "audits[user-timings].title"
+      ],
+      "lighthouse-core/audits/user-timings.js | description": [
+        "audits[user-timings].description"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | title": [
+        "audits[critical-request-chains].title"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | description": [
+        "audits[critical-request-chains].description"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 38
+          },
+          "path": "audits[critical-request-chains].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/redirects.js | title": [
+        "audits.redirects.title"
+      ],
+      "lighthouse-core/audits/redirects.js | description": [
+        "audits.redirects.description"
+      ],
+      "lighthouse-core/audits/mainthread-work-breakdown.js | title": [
+        "audits[mainthread-work-breakdown].title"
+      ],
+      "lighthouse-core/audits/mainthread-work-breakdown.js | description": [
+        "audits[mainthread-work-breakdown].description"
+      ],
+      "lighthouse-core/audits/mainthread-work-breakdown.js | columnCategory": [
+        "audits[mainthread-work-breakdown].details.headings[0].text"
+      ],
+      "lighthouse-core/audits/bootup-time.js | title": [
+        "audits[bootup-time].title"
+      ],
+      "lighthouse-core/audits/bootup-time.js | description": [
+        "audits[bootup-time].description"
+      ],
+      "lighthouse-core/audits/bootup-time.js | columnTotal": [
+        "audits[bootup-time].details.headings[1].text"
+      ],
+      "lighthouse-core/audits/bootup-time.js | columnScriptEval": [
+        "audits[bootup-time].details.headings[2].text"
+      ],
+      "lighthouse-core/audits/bootup-time.js | columnScriptParse": [
+        "audits[bootup-time].details.headings[3].text"
+      ],
+      "lighthouse-core/audits/uses-rel-preload.js | title": [
+        "audits[uses-rel-preload].title"
+      ],
+      "lighthouse-core/audits/uses-rel-preload.js | description": [
+        "audits[uses-rel-preload].description"
+      ],
+      "lighthouse-core/audits/uses-rel-preconnect.js | title": [
+        "audits[uses-rel-preconnect].title"
+      ],
+      "lighthouse-core/audits/uses-rel-preconnect.js | description": [
+        "audits[uses-rel-preconnect].description"
+      ],
+      "lighthouse-core/audits/font-display.js | failureTitle": [
+        "audits[font-display].title"
+      ],
+      "lighthouse-core/audits/font-display.js | description": [
+        "audits[font-display].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnWastedBytes": [
+        "audits[font-display].details.headings[1].text",
+        "audits[render-blocking-resources].details.headings[2].label",
+        "audits[unminified-css].details.headings[2].label",
+        "audits[unused-css-rules].details.headings[2].label"
+      ],
+      "lighthouse-core/audits/network-rtt.js | title": [
+        "audits[network-rtt].title"
+      ],
+      "lighthouse-core/audits/network-rtt.js | description": [
+        "audits[network-rtt].description"
+      ],
+      "lighthouse-core/audits/network-server-latency.js | title": [
+        "audits[network-server-latency].title"
+      ],
+      "lighthouse-core/audits/network-server-latency.js | description": [
+        "audits[network-server-latency].description"
+      ],
+      "lighthouse-core/audits/performance-budget.js | title": [
+        "audits[performance-budget].title"
+      ],
+      "lighthouse-core/audits/performance-budget.js | description": [
+        "audits[performance-budget].description"
+      ],
+      "lighthouse-core/audits/timing-budget.js | title": [
+        "audits[timing-budget].title"
+      ],
+      "lighthouse-core/audits/timing-budget.js | description": [
+        "audits[timing-budget].description"
+      ],
+      "lighthouse-core/audits/resource-summary.js | title": [
+        "audits[resource-summary].title"
+      ],
+      "lighthouse-core/audits/resource-summary.js | description": [
+        "audits[resource-summary].description"
+      ],
+      "lighthouse-core/audits/resource-summary.js | displayValue": [
+        {
+          "values": {
+            "requestCount": 46,
+            "byteCount": 202560
+          },
+          "path": "audits[resource-summary].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnResourceType": [
+        "audits[resource-summary].details.headings[0].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnRequests": [
+        "audits[resource-summary].details.headings[1].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnTransferSize": [
+        "audits[resource-summary].details.headings[2].text",
+        "audits[third-party-summary].details.headings[1].text",
+        "audits[total-byte-weight].details.headings[1].text",
+        "audits[render-blocking-resources].details.headings[1].label",
+        "audits[unminified-css].details.headings[1].label",
+        "audits[unused-css-rules].details.headings[1].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | totalResourceType": [
+        "audits[resource-summary].details.items[0].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | stylesheetResourceType": [
+        "audits[resource-summary].details.items[1].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | scriptResourceType": [
+        "audits[resource-summary].details.items[2].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | fontResourceType": [
+        "audits[resource-summary].details.items[3].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | imageResourceType": [
+        "audits[resource-summary].details.items[4].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | documentResourceType": [
+        "audits[resource-summary].details.items[5].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | mediaResourceType": [
+        "audits[resource-summary].details.items[6].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | otherResourceType": [
+        "audits[resource-summary].details.items[7].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | thirdPartyResourceType": [
+        "audits[resource-summary].details.items[8].label"
+      ],
+      "lighthouse-core/audits/third-party-summary.js | title": [
+        "audits[third-party-summary].title"
+      ],
+      "lighthouse-core/audits/third-party-summary.js | description": [
+        "audits[third-party-summary].description"
+      ],
+      "lighthouse-core/audits/third-party-summary.js | displayValue": [
+        {
+          "values": {
+            "timeInMs": 0
+          },
+          "path": "audits[third-party-summary].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/third-party-summary.js | columnThirdParty": [
+        "audits[third-party-summary].details.headings[0].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnBlockingTime": [
+        "audits[third-party-summary].details.headings[2].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | otherResourcesLabel": [
+        "audits[third-party-summary].details.items[1].subItems.items[2].url"
+      ],
+      "lighthouse-core/audits/third-party-facades.js | title": [
+        "audits[third-party-facades].title"
+      ],
+      "lighthouse-core/audits/third-party-facades.js | description": [
+        "audits[third-party-facades].description"
+      ],
+      "lighthouse-core/audits/largest-contentful-paint-element.js | title": [
+        "audits[largest-contentful-paint-element].title"
+      ],
+      "lighthouse-core/audits/largest-contentful-paint-element.js | description": [
+        "audits[largest-contentful-paint-element].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | displayValueElementsFound": [
+        {
+          "values": {
+            "nodeCount": 1
+          },
+          "path": "audits[largest-contentful-paint-element].displayValue"
+        },
+        {
+          "values": {
+            "nodeCount": 1
+          },
+          "path": "audits[layout-shift-elements].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnElement": [
+        "audits[largest-contentful-paint-element].details.headings[0].text",
+        "audits[layout-shift-elements].details.headings[0].text",
+        "audits[dom-size].details.headings[1].text"
+      ],
+      "lighthouse-core/audits/layout-shift-elements.js | title": [
+        "audits[layout-shift-elements].title"
+      ],
+      "lighthouse-core/audits/layout-shift-elements.js | description": [
+        "audits[layout-shift-elements].description"
+      ],
+      "lighthouse-core/audits/layout-shift-elements.js | columnContribution": [
+        "audits[layout-shift-elements].details.headings[1].text"
+      ],
+      "lighthouse-core/audits/long-tasks.js | title": [
+        "audits[long-tasks].title"
+      ],
+      "lighthouse-core/audits/long-tasks.js | description": [
+        "audits[long-tasks].description"
+      ],
+      "lighthouse-core/audits/long-tasks.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 10
+          },
+          "path": "audits[long-tasks].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnStartTime": [
+        "audits[long-tasks].details.headings[1].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnDuration": [
+        "audits[long-tasks].details.headings[2].text"
+      ],
+      "lighthouse-core/audits/non-composited-animations.js | title": [
+        "audits[non-composited-animations].title"
+      ],
+      "lighthouse-core/audits/non-composited-animations.js | description": [
+        "audits[non-composited-animations].description"
+      ],
+      "lighthouse-core/audits/unsized-images.js | title": [
+        "audits[unsized-images].title"
+      ],
+      "lighthouse-core/audits/unsized-images.js | description": [
+        "audits[unsized-images].description"
+      ],
+      "lighthouse-core/audits/preload-lcp-image.js | title": [
+        "audits[preload-lcp-image].title"
+      ],
+      "lighthouse-core/audits/preload-lcp-image.js | description": [
+        "audits[preload-lcp-image].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | title": [
+        "audits[uses-long-cache-ttl].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": [
+        "audits[uses-long-cache-ttl].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 0
+          },
+          "path": "audits[uses-long-cache-ttl].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": [
+        "audits[total-byte-weight].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": [
+        "audits[total-byte-weight].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": [
+        {
+          "values": {
+            "totalBytes": 202560
+          },
+          "path": "audits[total-byte-weight].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": [
+        "audits[offscreen-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": [
+        "audits[offscreen-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": [
+        "audits[render-blocking-resources].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": [
+        "audits[render-blocking-resources].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | displayValueMsSavings": [
+        {
+          "values": {
+            "wastedMs": 1063
+          },
+          "path": "audits[render-blocking-resources].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": [
+        "audits[unminified-css].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": [
+        "audits[unminified-css].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | displayValueByteSavings": [
+        {
+          "values": {
+            "wastedBytes": 4784
+          },
+          "path": "audits[unminified-css].displayValue"
+        },
+        {
+          "values": {
+            "wastedBytes": 46120
+          },
+          "path": "audits[unused-css-rules].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": [
+        "audits[unminified-javascript].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": [
+        "audits[unminified-javascript].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": [
+        "audits[unused-css-rules].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": [
+        "audits[unused-css-rules].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-javascript.js | title": [
+        "audits[unused-javascript].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-javascript.js | description": [
+        "audits[unused-javascript].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": [
+        "audits[uses-webp-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": [
+        "audits[uses-webp-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": [
+        "audits[uses-optimized-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": [
+        "audits[uses-optimized-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": [
+        "audits[uses-text-compression].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": [
+        "audits[uses-text-compression].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": [
+        "audits[uses-responsive-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": [
+        "audits[uses-responsive-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": [
+        "audits[efficient-animated-content].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": [
+        "audits[efficient-animated-content].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/duplicated-javascript.js | title": [
+        "audits[duplicated-javascript].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/duplicated-javascript.js | description": [
+        "audits[duplicated-javascript].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/legacy-javascript.js | title": [
+        "audits[legacy-javascript].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/legacy-javascript.js | description": [
+        "audits[legacy-javascript].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | title": [
+        "audits[dom-size].title"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | description": [
+        "audits[dom-size].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 280
+          },
+          "path": "audits[dom-size].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | columnStatistic": [
+        "audits[dom-size].details.headings[0].text"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | columnValue": [
+        "audits[dom-size].details.headings[2].text"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMElements": [
+        "audits[dom-size].details.items[0].statistic"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMDepth": [
+        "audits[dom-size].details.items[1].statistic"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMWidth": [
+        "audits[dom-size].details.items[2].statistic"
+      ],
+      "lighthouse-core/audits/dobetterweb/no-document-write.js | title": [
+        "audits[no-document-write].title"
+      ],
+      "lighthouse-core/audits/dobetterweb/no-document-write.js | description": [
+        "audits[no-document-write].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/uses-http2.js | title": [
+        "audits[uses-http2].title"
+      ],
+      "lighthouse-core/audits/dobetterweb/uses-http2.js | description": [
+        "audits[uses-http2].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/uses-passive-event-listeners.js | failureTitle": [
+        "audits[uses-passive-event-listeners].title"
+      ],
+      "lighthouse-core/audits/dobetterweb/uses-passive-event-listeners.js | description": [
+        "audits[uses-passive-event-listeners].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnSource": [
+        "audits[uses-passive-event-listeners].details.headings[0].text"
+      ],
+      "lighthouse-core/config/default-config.js | performanceCategoryTitle": [
+        "categories.performance.title"
+      ],
+      "lighthouse-core/config/default-config.js | metricGroupTitle": [
+        "categoryGroups.metrics.title"
+      ],
+      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": [
+        "categoryGroups[load-opportunities].title"
+      ],
+      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": [
+        "categoryGroups[load-opportunities].description"
+      ],
+      "lighthouse-core/config/default-config.js | budgetsGroupTitle": [
+        "categoryGroups.budgets.title"
+      ],
+      "lighthouse-core/config/default-config.js | budgetsGroupDescription": [
+        "categoryGroups.budgets.description"
+      ],
+      "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": [
+        "categoryGroups.diagnostics.title"
+      ],
+      "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": [
+        "categoryGroups.diagnostics.description"
+      ],
+      "lighthouse-core/config/default-config.js | pwaInstallableGroupTitle": [
+        "categoryGroups[pwa-installable].title"
+      ],
+      "lighthouse-core/config/default-config.js | pwaOptimizedGroupTitle": [
+        "categoryGroups[pwa-optimized].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yBestPracticesGroupTitle": [
+        "categoryGroups[a11y-best-practices].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yBestPracticesGroupDescription": [
+        "categoryGroups[a11y-best-practices].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yColorContrastGroupTitle": [
+        "categoryGroups[a11y-color-contrast].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yColorContrastGroupDescription": [
+        "categoryGroups[a11y-color-contrast].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupTitle": [
+        "categoryGroups[a11y-names-labels].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupDescription": [
+        "categoryGroups[a11y-names-labels].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yNavigationGroupTitle": [
+        "categoryGroups[a11y-navigation].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yNavigationGroupDescription": [
+        "categoryGroups[a11y-navigation].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yAriaGroupTitle": [
+        "categoryGroups[a11y-aria].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yAriaGroupDescription": [
+        "categoryGroups[a11y-aria].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yLanguageGroupTitle": [
+        "categoryGroups[a11y-language].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yLanguageGroupDescription": [
+        "categoryGroups[a11y-language].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yAudioVideoGroupTitle": [
+        "categoryGroups[a11y-audio-video].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yAudioVideoGroupDescription": [
+        "categoryGroups[a11y-audio-video].description"
+      ],
+      "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupTitle": [
+        "categoryGroups[a11y-tables-lists].title"
+      ],
+      "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupDescription": [
+        "categoryGroups[a11y-tables-lists].description"
+      ],
+      "lighthouse-core/config/default-config.js | seoMobileGroupTitle": [
+        "categoryGroups[seo-mobile].title"
+      ],
+      "lighthouse-core/config/default-config.js | seoMobileGroupDescription": [
+        "categoryGroups[seo-mobile].description"
+      ],
+      "lighthouse-core/config/default-config.js | seoContentGroupTitle": [
+        "categoryGroups[seo-content].title"
+      ],
+      "lighthouse-core/config/default-config.js | seoContentGroupDescription": [
+        "categoryGroups[seo-content].description"
+      ],
+      "lighthouse-core/config/default-config.js | seoCrawlingGroupTitle": [
+        "categoryGroups[seo-crawl].title"
+      ],
+      "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription": [
+        "categoryGroups[seo-crawl].description"
+      ],
+      "lighthouse-core/config/default-config.js | bestPracticesTrustSafetyGroupTitle": [
+        "categoryGroups[best-practices-trust-safety].title"
+      ],
+      "lighthouse-core/config/default-config.js | bestPracticesUXGroupTitle": [
+        "categoryGroups[best-practices-ux].title"
+      ],
+      "lighthouse-core/config/default-config.js | bestPracticesBrowserCompatGroupTitle": [
+        "categoryGroups[best-practices-browser-compat].title"
+      ],
+      "lighthouse-core/config/default-config.js | bestPracticesGeneralGroupTitle": [
+        "categoryGroups[best-practices-general].title"
+      ],
+      "node_modules/lighthouse-plugin-publisher-ads/messages/common-strings.js | GROUPS__METRICS": [
+        "categoryGroups[lighthouse-plugin-publisher-ads-metrics].title"
+      ],
+      "node_modules/lighthouse-plugin-publisher-ads/messages/common-strings.js | GROUPS__ADS_PERFORMANCE": [
+        "categoryGroups[lighthouse-plugin-publisher-ads-ads-performance].title"
+      ],
+      "node_modules/lighthouse-plugin-publisher-ads/messages/common-strings.js | GROUPS__ADS_BEST_PRACTICES": [
+        "categoryGroups[lighthouse-plugin-publisher-ads-ads-best-practices].title"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | unused-css-rules": [
+        "stackPacks[0].descriptions[unused-css-rules]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | uses-webp-images": [
+        "stackPacks[0].descriptions[uses-webp-images]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | offscreen-images": [
+        "stackPacks[0].descriptions[offscreen-images]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | total-byte-weight": [
+        "stackPacks[0].descriptions[total-byte-weight]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | render-blocking-resources": [
+        "stackPacks[0].descriptions[render-blocking-resources]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | unminified-css": [
+        "stackPacks[0].descriptions[unminified-css]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | unminified-javascript": [
+        "stackPacks[0].descriptions[unminified-javascript]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | efficient-animated-content": [
+        "stackPacks[0].descriptions[efficient-animated-content]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | unused-javascript": [
+        "stackPacks[0].descriptions[unused-javascript]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | uses-long-cache-ttl": [
+        "stackPacks[0].descriptions[uses-long-cache-ttl]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | uses-optimized-images": [
+        "stackPacks[0].descriptions[uses-optimized-images]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | uses-text-compression": [
+        "stackPacks[0].descriptions[uses-text-compression]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | uses-responsive-images": [
+        "stackPacks[0].descriptions[uses-responsive-images]"
+      ],
+      "node_modules/lighthouse-stack-packs/packs/wordpress | time-to-first-byte": [
+        "stackPacks[0].descriptions[time-to-first-byte]"
+      ]
+    }
+  },
+  "stackPacks": [
+    {
+      "id": "wordpress",
+      "title": "WordPress",
+      "iconDataURL": "data:image/svg+xml,%3Csvg viewBox=\"0 0 122.5 122.5\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%232f3439\"%3E%3Cpath d=\"M8.7 61.3c0 20.8 12.1 38.7 29.6 47.3l-25-68.7c-3 6.5-4.6 13.7-4.6 21.4zM96.7 58.6c0-6.5-2.3-11-4.3-14.5-2.7-4.3-5.2-8-5.2-12.3 0-4.8 3.7-9.3 8.9-9.3h.7a52.4 52.4 0 0 0-79.4 9.9h3.3c5.5 0 14-.6 14-.6 2.9-.2 3.2 4 .4 4.3 0 0-2.9.4-6 .5l19.1 57L59.7 59l-8.2-22.5c-2.8-.1-5.5-.5-5.5-.5-2.8-.1-2.5-4.5.3-4.3 0 0 8.7.7 13.9.7 5.5 0 14-.7 14-.7 2.8-.2 3.2 4 .3 4.3 0 0-2.8.4-6 .5l19 56.5 5.2-17.5c2.3-7.3 4-12.5 4-17z\"/%3E%3Cpath d=\"M62.2 65.9l-15.8 45.8a52.6 52.6 0 0 0 32.3-.9l-.4-.7zM107.4 36a49.6 49.6 0 0 1-3.6 24.2l-16.1 46.5A52.5 52.5 0 0 0 107.4 36z\"/%3E%3Cpath d=\"M61.3 0a61.3 61.3 0 1 0 .1 122.7A61.3 61.3 0 0 0 61.3 0zm0 119.7a58.5 58.5 0 1 1 .1-117 58.5 58.5 0 0 1-.1 117z\"/%3E%3C/g%3E%3C/svg%3E",
+      "descriptions": {
+        "unused-css-rules": "Consider reducing, or switching, the number of [WordPress plugins](https://wordpress.org/plugins/) loading unused CSS in your page. To identify plugins that are adding extraneous CSS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the theme/plugin responsible from the URL of the stylesheet. Look out for plugins that have many stylesheets in the list which have a lot of red in code coverage. A plugin should only enqueue a stylesheet if it is actually used on the page.",
+        "uses-webp-images": "Consider using a [plugin](https://wordpress.org/plugins/search/convert+webp/) or service that will automatically convert your uploaded images to the optimal formats.",
+        "offscreen-images": "Install a [lazy-load WordPress plugin](https://wordpress.org/plugins/search/lazy+load/) that provides the ability to defer any offscreen images, or switch to a theme that provides that functionality. Also consider using [the AMP plugin](https://wordpress.org/plugins/amp/).",
+        "total-byte-weight": "Consider showing excerpts in your post lists (e.g. via the more tag), reducing the number of posts shown on a given page, breaking your long posts into multiple pages, or using a plugin to lazy-load comments.",
+        "render-blocking-resources": "There are a number of WordPress plugins that can help you [inline critical assets](https://wordpress.org/plugins/search/critical+css/) or [defer less important resources](https://wordpress.org/plugins/search/defer+css+javascript/). Beware that optimizations provided by these plugins may break features of your theme or plugins, so you will likely need to make code changes.",
+        "unminified-css": "A number of [WordPress plugins](https://wordpress.org/plugins/search/minify+css/) can speed up your site by concatenating, minifying, and compressing your styles. You may also want to use a build process to do this minification up-front if possible.",
+        "unminified-javascript": "A number of [WordPress plugins](https://wordpress.org/plugins/search/minify+javascript/) can speed up your site by concatenating, minifying, and compressing your scripts. You may also want to use a build process to do this minification up front if possible.",
+        "efficient-animated-content": "Consider uploading your GIF to a service which will make it available to embed as an HTML5 video.",
+        "unused-javascript": "Consider reducing, or switching, the number of [WordPress plugins](https://wordpress.org/plugins/) loading unused JavaScript in your page. To identify plugins that are adding extraneous JS, try running [code coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage) in Chrome DevTools. You can identify the theme/plugin responsible from the URL of the script. Look out for plugins that have many scripts in the list which have a lot of red in code coverage. A plugin should only enqueue a script if it is actually used on the page.",
+        "uses-long-cache-ttl": "Read about [Browser Caching in WordPress](https://wordpress.org/support/article/optimization/#browser-caching).",
+        "uses-optimized-images": "Consider using an [image optimization WordPress plugin](https://wordpress.org/plugins/search/optimize+images/) that compresses your images while retaining quality.",
+        "uses-text-compression": "You can enable text compression in your web server configuration.",
+        "uses-responsive-images": "Upload images directly through the [media library](https://wordpress.org/support/article/media-library-screen/) to ensure that the required image sizes are available, and then insert them from the media library or use the image widget to ensure the optimal image sizes are used (including those for the responsive breakpoints). Avoid using `Full Size` images unless the dimensions are adequate for their usage. [Learn More](https://wordpress.org/support/article/inserting-images-into-posts-and-pages/).",
+        "time-to-first-byte": "Themes, plugins, and server specifications all contribute to server response time. Consider finding a more optimized theme, carefully selecting an optimization plugin, and/or upgrading your server."
+      }
+    }
+  ]
+}

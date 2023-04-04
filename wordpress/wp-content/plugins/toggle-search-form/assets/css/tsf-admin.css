@@ -1,0 +1,92 @@
+.tsf-options #tsf-options-form h2,
+.tsf-options h3 {
+    background: #0a9fd1;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 2em;
+    padding: 1.2em;
+    text-transform: uppercase;
+}
+
+.tsf-lkey-heading::before {
+  display: inline-block;
+  font-family: "dashicons";
+  font-size: 32px;
+  padding-right: 11px;
+  vertical-align: top;
+}
+
+.tsf-lkey-heading::before {
+  content: "\f112";
+}
+
+form.tsf-options-form {
+    width: 70%;
+}
+
+tr:nth-child(2n+1) {
+    background: #f7f7f7;
+}
+ 
+.tsf-options .form-table td, 
+.tsf-options .form-table td p, 
+.tsf-options .form-table th, 
+.tsf-options .form-wrap label {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tsf-options .form-table th {
+    padding: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.tsf-options table.form-table {
+    border: 1px solid #dcdcdc;
+    margin-top: 0;
+    width: 100%;
+}
+
+.form-wrap p, 
+p.description, 
+p.help, span.description {
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+    padding: 15px 25px;
+    margin-top: 0;
+}
+
+#toggle-search-form-update {
+  display: none;
+}
+
+.tsf-response {
+  background: url(../images/yes.png) no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.tsf-response.error {
+  background: url(../images/no.png) no-repeat;
+  color: #900;
+  display: block;
+  margin: 13px 0 0;
+  padding-left: 25px;
+  width: auto;
+}
+
+#preview_fbimg {
+  clear: both;
+  display: block;
+  margin: 10px 0 0;
+}
+
+#preview_fbimg img {
+  border: 1px solid #dedede;
+  padding: 3px;
+}
+
+ul.alignleft {
+  margin-right: 20px;
+}
